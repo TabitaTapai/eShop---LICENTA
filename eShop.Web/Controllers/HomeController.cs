@@ -18,8 +18,8 @@ namespace eShop.Web.Controllers
     public class HomeController : PublicBaseController
     {
         public ActionResult Index()
-        {
-            /* if multi language is enabled and the home page is accessed without any language, redirect to the default language */
+        {         
+            //facem redirectare catre limba default daca home page este accesata fara limba si daca este activata Multilingual
             if(ConfigurationsHelper.EnableMultilingual && Request.Url.AbsolutePath.ToString().Equals("/"))
             {
                 return Redirect(Url.Home());
@@ -134,7 +134,7 @@ namespace eShop.Web.Controllers
 
             try
             {
-                //send order placed notification email to admin emails
+                //trimitem mail de notificare comanda noua catre admin email
                 await new EmailService()
                                  .SendToEmailAsync(ConfigurationsHelper.SendGrid_FromEmailAddressName,
                                                    ConfigurationsHelper.SendGrid_FromEmailAddress,
@@ -144,6 +144,7 @@ namespace eShop.Web.Controllers
 
                 jsonResult.Data = new
                 {
+                    //daca s-a trimis cu succes afisam mesajul
                     Success = true,
                     Message = "Your message has been submitted. We will contact you back soon."
                 };
@@ -152,6 +153,7 @@ namespace eShop.Web.Controllers
             {
                 jsonResult.Data = new
                 {
+                    //daca email-ul nu s-a trimis cu succes afisam mesajul
                     Success = false,
                     Message = "An error occured while submitting your message."
                 };
