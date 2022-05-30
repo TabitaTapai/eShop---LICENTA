@@ -11,8 +11,8 @@
 <Resource Key="PP.Header.Menu.HiUser" Value="Salut {user}!" />
 <Resource Key="PP.Header.Menu.Account" Value="Cont" />
 <Resource Key="PP.Header.Menu.Categories" Value="Categorii" />
-<Resource Key="PP.Header.Menu.Home" Value="Acasă" />
-<Resource Key="PP.Header.Menu.Products" Value="Produse" />
+<Resource Key="PP.Header.Menu.Home" Value="Acasa" />
+<Resource Key="PP.Header.Menu.Products" Value="Magazin" />
 <Resource Key="PP.Header.Menu.Tracking" Value="Urmarire" />
 <Resource Key="PP.Header.Menu.Checkout" Value="Verifica" />
 <Resource Key="PP.Header.Menu.ShoppingCart" Value="Cos" />

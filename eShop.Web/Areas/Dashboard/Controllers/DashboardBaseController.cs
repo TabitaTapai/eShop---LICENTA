@@ -19,22 +19,6 @@ namespace eShop.Web.Areas.Dashboard.Controllers
             base.OnActionExecuting(filterContext);
         }
 
-        //protected override void OnException(ExceptionContext filterContext)
-        //{
-        //    Exception ex = filterContext.Exception;
-
-        //    #if DEBUG
-        //    throw ex;
-        //    #endif
-
-        //    //Log Exception e
-        //    filterContext.ExceptionHandled = true;
-        //    filterContext.Result = new ViewResult()
-        //    {
-        //        ViewName = "Error"
-        //    };
-        //}
-
         [AllowAnonymous]
         public ActionResult UnAuthorized()
         {
