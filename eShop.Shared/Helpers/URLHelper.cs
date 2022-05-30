@@ -456,6 +456,20 @@ namespace eShop.Shared.Helpers
             return routeURL.ToLower();
         }
 
+        public static string Blog(this UrlHelper helper)
+        {
+            string routeURL = string.Empty;
+
+            if (ConfigurationsHelper.EnableMultilingual)
+            {
+                routeURL = helper.RouteUrl("LanguageBased_Blog");
+            }
+            else routeURL = helper.RouteUrl("Blog");
+
+            routeURL = HttpUtility.UrlDecode(routeURL, System.Text.Encoding.UTF8);
+            return routeURL.ToLower();
+        }
+
         public static string PlaceOrder(this UrlHelper helper, bool isCashOnDelivery = false, bool isPayPal = false)
         {
             string routeURL = string.Empty;

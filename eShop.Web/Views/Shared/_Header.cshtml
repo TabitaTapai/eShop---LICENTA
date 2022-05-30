@@ -183,8 +183,10 @@
                         <li class="@Html.MenuItemClass("Home", "Index")"><a href="@Url.Home()">@("PP.Header.Menu.Home".Localized())</a></li>
                         <li class="@Html.MenuItemClass("Home", "Search")"><a href="@Url.SearchProducts()">@("PP.Header.Menu.Products".Localized())</a></li>
                         <li class="@Html.MenuItemClass("Orders", "Tracking")"><a href="@Url.OrderTrack()">@("PP.Header.Menu.Tracking".Localized())</a></li>
-                        <li class="@Html.MenuItemClass("Cart", "Cart")"><a href="@Url.Cart()">@("PP.Header.Menu.ShoppingCart".Localized())</a></li>
-                        <li class="@Html.MenuItemClass("Cart", "Checkout")"><a href="@Url.Checkout()">@("PP.Header.Menu.Checkout".Localized())</a></li>
+                        @*<li class="@Html.MenuItemClass("Cart", "Cart")"><a href="@Url.Cart()">@("PP.Header.Menu.ShoppingCart".Localized())</a></li>*@
+                        @*<li class="@Html.MenuItemClass("Cart", "Checkout")"><a href="@Url.Checkout()">@("PP.Header.Menu.Checkout".Localized())</a></li>*@
+                        <li class="@Html.MenuItemClass("Contents", "Blog")"><a href="@Url.Blog()">@("PP.Header.Menu.Blog".Localized())</a></li>
+
                     </ul>
                 </nav>
                 <div class="mobile-nav-holder">
