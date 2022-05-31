@@ -18,7 +18,7 @@ namespace eShop.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder); // This needs to go before the other rules!
+            base.OnModelCreating(modelBuilder); // aceasta metoda trebuie sa se execute inainte de alte reguli, inainte de a initializa contextul
             
             modelBuilder.Entity<Promo>()
                 .HasIndex(p => new { p.Code })

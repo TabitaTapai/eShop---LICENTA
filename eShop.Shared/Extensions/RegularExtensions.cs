@@ -47,7 +47,7 @@ namespace eShop.Shared.Extensions
         private static string ToShortGuid(this Guid newGuid)
         {
             string modifiedBase64 = Convert.ToBase64String(newGuid.ToByteArray())
-                .Replace('+', '-').Replace('/', '_') // avoid invalid URL characters
+                .Replace('+', '-').Replace('/', '_') // evitare caractere URL invalide
                 .Substring(0, 22);
             return modifiedBase64;
         }
@@ -171,7 +171,7 @@ namespace eShop.Shared.Extensions
 
                 if (m.Success)
                 {
-                    //found an issue when the email address part before @ was less than 4 characters, the regex match value becomes empty string.
+                    //daca in adresa de email inainte de @ aveam mai putin de 4 chars, valoarea de potrivire regex era goala
                     if(!string.IsNullOrEmpty(m.Value))
                     {
                         hiddenEmail = email.Replace(m.Value, new string('*', m.Length));

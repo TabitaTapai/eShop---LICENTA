@@ -60,7 +60,7 @@ namespace eShop.Shared.Helpers
                     zip = newOrder.CustomerZipCode
                 };
 
-                //standard api call to retrieve response
+                //apel API std pt preluare raspuns
                 var paymentType = new paymentType { Item = creditCardInfo };
 
 

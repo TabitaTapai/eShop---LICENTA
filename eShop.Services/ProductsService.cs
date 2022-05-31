@@ -123,7 +123,7 @@ namespace eShop.Services
                     products = products.OrderBy(x => x.Price);
                 }
             }
-            else //sortBy Product Date
+            else //sortare dupa data produsului
             {
                 products = products.OrderByDescending(x => x.ModifiedOn);
             }
@@ -182,7 +182,7 @@ namespace eShop.Services
                     products = products.OrderBy(x => x.Price);
                 }
             }
-            else //sortBy Product Date
+            else //sortare dupa data produsului
             {
                 products = products.OrderByDescending(x => x.ModifiedOn);
             }

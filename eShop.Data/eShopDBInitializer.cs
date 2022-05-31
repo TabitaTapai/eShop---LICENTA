@@ -102,7 +102,7 @@ namespace eShop.Data
 
                 if (result.Succeeded)
                 {
-                    //add necessary roles to admin
+                    //se adauga rolurile necesare la admin
                     usersManager.AddToRole(admin.Id, "Administrator");
                     usersManager.AddToRole(admin.Id, "Moderator");
                     usersManager.AddToRole(admin.Id, "User");
@@ -122,7 +122,7 @@ namespace eShop.Data
             CategoryRecord uncategorizedEnRecord = new CategoryRecord()
             {
                 Category = uncategorized,
-                LanguageID = EnglishLanguageID, //global
+                LanguageID = EnglishLanguageID, //utilizare globala
                 Name = "Uncategorized",
                 Description = "Products that are not categorized. uncategorised, unclassified - not arranged in any specific grouping.",
                 ModifiedOn = DateTime.Now
@@ -131,7 +131,7 @@ namespace eShop.Data
             CategoryRecord uncategorizedArRecord = new CategoryRecord()
             {
                 Category = uncategorized,
-                LanguageID = RomanianLanguageID, //global
+                LanguageID = RomanianLanguageID, //utilizare globala
                 Name = "Fara categorie",
                 Description = "Produse care nu sunt clasificate. neclasificat, neclasificat - nu sunt în nicio grupare specifică.",
                 ModifiedOn = DateTime.Now
