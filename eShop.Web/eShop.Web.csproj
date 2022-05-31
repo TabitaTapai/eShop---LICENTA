@@ -4613,6 +4613,7 @@
   <ItemGroup>
     <Content Include="Areas\Dashboard\Views\Dashboard\NewsletterSubscribers.cshtml" />
     <Content Include="Areas\Dashboard\Views\Dashboard\_NewsletterSubscribersListing.cshtml" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_ExternalSocialScripts.cshtml" />
   </ItemGroup>
