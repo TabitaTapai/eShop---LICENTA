@@ -17,7 +17,6 @@ namespace eShop.Shared.Helpers
 
         public static void Populate()
         {
-            // TODO: Do we need to make this method thread-safe?
             if (IsIntitialized)
             {
                 return;

@@ -16,15 +16,15 @@ namespace eShop.Shared.Attributes
             OutputEncoding = Encoding.UTF8;
         }
 
-        /// <summary>Gets or sets the input encoding.</summary>
+        /// <summary>get sau set codare de intrare</summary>
         public Encoding InputEncoding { get; set; }
 
-        /// <summary>Gets or sets the output encoding.</summary>
+        /// <summary>get sau set codare de iesire</summary>
         public Encoding OutputEncoding { get; set; }
 
-        /// <summary>Processes the output data.</summary>
+        /// <summary>Prelucrare date iesire</summary>
         /// <param name="data">The data.</param>
-        /// <returns>The processed data.</returns>
+        /// <returns>Datele prelucrate</returns>
         protected abstract string Process(string data);
 
         public override void OnResultExecuted(ResultExecutedContext filterContext)
@@ -59,8 +59,8 @@ namespace eShop.Shared.Attributes
                 _data.Append(_inputEncoding.GetString(buffer, offset, count));
             }
 
-            /// <exception cref="IOException">An I/O error has occurred.</exception>
-            /// <exception cref="Exception">A delegate callback throws an exception.</exception>
+            /// <exception cref="IOException">A aparut o eroare de I/O. </exception>
+            /// <exception cref="Exception">Un delegat de apel invers arunca o exceptie.</exception>
             public override void Close()
             {
                 var output = _outputEncoding.GetBytes(_processor(_data.ToString()));
@@ -73,19 +73,19 @@ namespace eShop.Shared.Attributes
             {
             }
 
-            /// <exception cref="IOException">An I/O error occurs. </exception>
+            /// <exception cref="IOException">Eroare I/O. </exception>
             public override int Read(byte[] buffer, int offset, int count)
             {
                 return _stream.Read(buffer, offset, count);
             }
 
-            /// <exception cref="IOException">An I/O error occurs. </exception>
+            /// <exception cref="IOException">Eroare I/O. </exception>
             public override long Seek(long offset, SeekOrigin origin)
             {
                 return _stream.Seek(offset, origin);
             }
 
-            /// <exception cref="IOException">An I/O error occurs. </exception>
+            /// <exception cref="IOException">Eroare I/O. </exception>
             public override void SetLength(long value)
             {
                 _stream.SetLength(value);

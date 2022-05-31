@@ -56,203 +56,203 @@
 <Resource Key="PP.Home.Showcase.FastDelivery" Value="Livrare rapida" />
 <Resource Key="PP.Home.Showcase.OnTimeDelivery" Value="100% Livrare la timp" />
 <Resource Key="PP.Home.Showcase.247Support" Value="Suport 24/7" />
-<Resource Key="PP.Home.Showcase.AlwaysReadyToHelp" Value="Always Ready to Help" />
+<Resource Key="PP.Home.Showcase.AlwaysReadyToHelp" Value="Intodeauna pregatiti sa va ajutam" />
 <Resource Key="PP.Home.Showcase.SecurePayments" Value="Plati securizate" />
 <Resource Key="PP.Home.Showcase.SecurePaymentOptions" Value="Optiuni plata securizata" />
 <Resource Key="PP.Home.Showcase.OurPartners" Value="Partenerii nostrii" />
-<Resource Key="PP.Search.Title" Value="Search Products on {application}" />
-<Resource Key="PP.Search.TitleWithCategory" Value="Search {category} Products on {application}" />
-<Resource Key="PP.Search.Description" Value="This demo ecommerce website is developed with ASP .Net MVC and C# as server side programming language. Check all the eCommerce features here. " />
-<Resource Key="PP.Search.SearchProducts" Value="Search Products" />
-<Resource Key="PP.Search.SearchProductsPlaceholder" Value="Search Products" />
-<Resource Key="PP.Search.Categories" Value="Categories" />
-<Resource Key="PP.Search.Categories.AllCategories" Value="All Categories" />
-<Resource Key="PP.Search.PriceRange" Value="Price Range" />
-<Resource Key="PP.Search.Filter" Value="Filter" />
-<Resource Key="PP.Search.Reset" Value="Reset" />
-<Resource Key="PP.Search.SortBy" Value="Sort By: {sortby}" />
-<Resource Key="PP.Search.SortBy.LatestProducts" Value="Latest Products" />
-<Resource Key="PP.Search.SortBy.PriceLowToHigh" Value="Price - Low to High" />
-<Resource Key="PP.Search.SortBy.PriceHighToLow" Value="Price - High to Low" />
-<Resource Key="PP.Search.ShowNoOfProduct" Value="Show {number} Products" />
-<Resource Key="PP.Search.ShowingProductRange" Value="Showing {startingIndex} to {endingIndex} of {total}" />
+<Resource Key="PP.Search.Title" Value="Cauta produse in aplicatie {application}" />
+<Resource Key="PP.Search.TitleWithCategory" Value="Cauta {category} in aplicatie {application}" />
+<Resource Key="PP.Search.Description" Value="eShop" />
+<Resource Key="PP.Search.SearchProducts" Value="Cauta produse" />
+<Resource Key="PP.Search.SearchProductsPlaceholder" Value="Cauta produse" />
+<Resource Key="PP.Search.Categories" Value="Categorii" />
+<Resource Key="PP.Search.Categories.AllCategories" Value="Toate Categoriile" />
+<Resource Key="PP.Search.PriceRange" Value="Filtrare pret" />
+<Resource Key="PP.Search.Filter" Value="Filtru" />
+<Resource Key="PP.Search.Reset" Value="Resetare" />
+<Resource Key="PP.Search.SortBy" Value="Sortat dupa : {sortby}" />
+<Resource Key="PP.Search.SortBy.LatestProducts" Value="Ultimele produse" />
+<Resource Key="PP.Search.SortBy.PriceLowToHigh" Value="Pret crescator" />
+<Resource Key="PP.Search.SortBy.PriceHighToLow" Value="Pret descrescator" />
+<Resource Key="PP.Search.ShowNoOfProduct" Value="Arata {number} produse" />
+<Resource Key="PP.Search.ShowingProductRange" Value="Incepand {startingIndex} la {endingIndex} din {total}" />
 <Resource Key="PP.Search.Products.Featured" Value="Oferta" />
-<Resource Key="PP.Search.ProductsNotFound" Value="Sorry! No products found." />
-<Resource Key="PP.ProductDetails.AverageRatingCount" Value="Average Rating: {averageRating} Stars from {totalComments} comments" />
-<Resource Key="PP.ProductDetails.ProductStockQuantity" Value="{quantity} available in stock." />
-<Resource Key="PP.ProductDetails.Description" Value="Description" />
-<Resource Key="PP.ProductDetails.ProductSpecifications" Value="Product Specifications" />
-<Resource Key="PP.ProductDetails.Reviews" Value="Reviews" />
-<Resource Key="PP.ProductDetails.Comment" Value="Comment" />
-<Resource Key="PP.ProductDetails.Comments" Value="Comments" />
-<Resource Key="PP.ProductDetails.UserRating" Value="User Rating: {commentRating}" />
-<Resource Key="PP.ProductDetails.NoCommentsOnProduct" Value="There are no comments on this products. Be the first to comment on it." />
-<Resource Key="PP.ProductDetails.LeaveComment" Value="Leave a Comment" />
-<Resource Key="PP.ProductDetails.YourRating" Value="Your Rating" />
-<Resource Key="PP.ProductDetails.Star" Value="Star" />
-<Resource Key="PP.ProductDetails.CommentPlaceholder" Value="Write your comment." />
-<Resource Key="PP.ProductDetails.LeaveYourComment" Value="Leave Comment" />
-<Resource Key="PP.ProductDetails.LoginToComment" Value="You need to login to leave comments." />
-<Resource Key="PP.ProductDetails.Comments.Validations.TextRequired" Value="Please add a valid comment." />
-<Resource Key="PP.ProductDetails.Comments.Validations.TextMinLength" Value="Minimum Length is {min}." />
-<Resource Key="PP.ProductDetails.Comments.Validations.TextMaxLength" Value="Maximum Length is {max}." />
-<Resource Key="PP.ProductDetails.Comments.Validations.EntityRequired" Value="Comment type not identified." />
-<Resource Key="PP.ProductDetails.Comments.Validations.RecordIDRequired" Value="Comment Record not identified." />
-<Resource Key="PP.ProductDetails.CommentDeleteWarning" Value="Are you sure you want to delete this comment?" />
-<Resource Key="PP.ProductDetails.CommentDeleteConfirm" Value="Yes, delete it!" />
-<Resource Key="PP.ProductDetails.CommentDeleteCancel" Value="No, Dont delete." />
-<Resource Key="PP.ProductDetails.Comments.Validations.NotAuthorizedToDeleteComment" Value="You are not authorzed to delete this comment." />
-<Resource Key="PP.ProductDetails.Comments.Validations.UnableToDeleteComment" Value="Unable to delete comment." />
+<Resource Key="PP.Search.ProductsNotFound" Value="Ups! Nici un produs nu a fost gasit." />
+<Resource Key="PP.ProductDetails.AverageRatingCount" Value="Media ratingurilor {averageRating} din {totalComments} comentarii" />
+<Resource Key="PP.ProductDetails.ProductStockQuantity" Value="{quantity} produse in stoc." />
+<Resource Key="PP.ProductDetails.Description" Value="Descriere" />
+<Resource Key="PP.ProductDetails.ProductSpecifications" Value="Specificatiile produselor" />
+<Resource Key="PP.ProductDetails.Reviews" Value="Reviewuri" />
+<Resource Key="PP.ProductDetails.Comment" Value="Comenteaza" />
+<Resource Key="PP.ProductDetails.Comments" Value="Comentarii" />
+<Resource Key="PP.ProductDetails.UserRating" Value="Ratingurile utilizatorilor: {commentRating}" />
+<Resource Key="PP.ProductDetails.NoCommentsOnProduct" Value="Nu exista comentarii la acest produs. Fi primul care comenteaza." />
+<Resource Key="PP.ProductDetails.LeaveComment" Value="Lasa un comentariu" />
+<Resource Key="PP.ProductDetails.YourRating" Value="Ratingul tau" />
+<Resource Key="PP.ProductDetails.Star" Value="Favorite" />
+<Resource Key="PP.ProductDetails.CommentPlaceholder" Value="Scrie comentariul tau." />
+<Resource Key="PP.ProductDetails.LeaveYourComment" Value="Lasa un comentariu" />
+<Resource Key="PP.ProductDetails.LoginToComment" Value="Trebuie sa te loghezi pentru a lasa comentarii." />
+<Resource Key="PP.ProductDetails.Comments.Validations.TextRequired" Value="Te rog,adauga un comentariu valid." />
+<Resource Key="PP.ProductDetails.Comments.Validations.TextMinLength" Value="Numarul minim de cuvinte este {min}." />
+<Resource Key="PP.ProductDetails.Comments.Validations.TextMaxLength" Value="Numarul maxim de cuvinte este {max}." />
+<Resource Key="PP.ProductDetails.Comments.Validations.EntityRequired" Value="Tipul comentariului nu poate fi identificat." />
+<Resource Key="PP.ProductDetails.Comments.Validations.RecordIDRequired" Value="Comentariul nu poate fi inregistrat." />
+<Resource Key="PP.ProductDetails.CommentDeleteWarning" Value="Esti sigur ca doresti sa stergi acest comentariu?" />
+<Resource Key="PP.ProductDetails.CommentDeleteConfirm" Value="Da, sterge-l!" />
+<Resource Key="PP.ProductDetails.CommentDeleteCancel" Value="Nu, nu-l sterge." />
+<Resource Key="PP.ProductDetails.Comments.Validations.NotAuthorizedToDeleteComment" Value="Nu esti autorizat pentru a sterge acest comentariu." />
+<Resource Key="PP.ProductDetails.Comments.Validations.UnableToDeleteComment" Value="Nu poti sterge acest comentariu." />
 <Resource Key="PP.ProductDetails.FeaturedProducts" Value="Oferte" />
 <Resource Key="PP.ProductDetails.RelatedProducts" Value="Alti clienti au vizitat si" />
 <Resource Key="PP.ProductDetails.RelatedProductsFeatured" Value="Oferta" />
-<Resource Key="PP.Tracking.Title" Value="Track Order" />
-<Resource Key="PP.Tracking.Description" Value="You can check the status of your order. Please enter the order ID and you will get information related to your order." />
-<Resource Key="PP.Tracking.OrderID" Value="Order ID" />
-<Resource Key="PP.Tracking.OrderIDPlaceholder" Value="Enter Order ID to track" />
-<Resource Key="PP.Tracking.TrackOrder" Value="Track Order" />
-<Resource Key="PP.Tracking.OrderPlacedSuccessMessage" Value="Thank You. Your order has been placed. You can access your order details anytime in your orders section in profile." />
-<Resource Key="PP.Tracking.PrintInvoice" Value="Print Invoice" />
-<Resource Key="PP.Tracking.OrderStatus" Value="Order Status" />
-<Resource Key="PP.Tracking.OrderStatus.Placed" Value="Placed" />
-<Resource Key="PP.Tracking.OrderStatus.Processing" Value="Processing" />
-<Resource Key="PP.Tracking.OrderStatus.Delivered" Value="Delivered" />
-<Resource Key="PP.Tracking.OrderStatus.Failed" Value="Failed" />
-<Resource Key="PP.Tracking.OrderStatus.Cancelled" Value="Cancelled" />
-<Resource Key="PP.Tracking.OrderStatus.OnHold" Value="OnHold" />
-<Resource Key="PP.Tracking.OrderStatus.WaitingForPayment" Value="Waiting For Payment" />
-<Resource Key="PP.Tracking.OrderStatus.Refunded" Value="Refunded" />
-<Resource Key="PP.Tracking.PaymentMethod" Value="Payment Method" />
-<Resource Key="PP.Tracking.PaymentMethods.CreditCard" Value="Credit Card" />
+<Resource Key="PP.Tracking.Title" Value="Urmareste comanda" />
+<Resource Key="PP.Tracking.Description" Value="Poti verifica statusul comenzii. Te rog introdu ID-ul comenzii pentru a primi informatii legate de comanda ta." />
+<Resource Key="PP.Tracking.OrderID" Value="ID-ul comenzii" />
+<Resource Key="PP.Tracking.OrderIDPlaceholder" Value=" Introdu ID-ul comenzii pentru a urmarii" />
+<Resource Key="PP.Tracking.TrackOrder" Value="Urmareste comanda" />
+<Resource Key="PP.Tracking.OrderPlacedSuccessMessage" Value="Multumim. Comanda voastra a fost plasata. Poti accesa detalile comenzii tale oricand intrand pe profilul tau." />
+<Resource Key="PP.Tracking.PrintInvoice" Value="Doresc factura" />
+<Resource Key="PP.Tracking.OrderStatus" Value="Statusul comenzii" />
+<Resource Key="PP.Tracking.OrderStatus.Placed" Value="Plasata" />
+<Resource Key="PP.Tracking.OrderStatus.Processing" Value="In procesare" />
+<Resource Key="PP.Tracking.OrderStatus.Delivered" Value="Livrata" />
+<Resource Key="PP.Tracking.OrderStatus.Failed" Value="eroare" />
+<Resource Key="PP.Tracking.OrderStatus.Cancelled" Value="Anulata" />
+<Resource Key="PP.Tracking.OrderStatus.OnHold" Value="in asteptare" />
+<Resource Key="PP.Tracking.OrderStatus.WaitingForPayment" Value="plata in asteptare" />
+<Resource Key="PP.Tracking.OrderStatus.Refunded" Value="Rambursat" />
+<Resource Key="PP.Tracking.PaymentMethod" Value="Metoda Platii" />
+<Resource Key="PP.Tracking.PaymentMethods.CreditCard" Value="Card de credit" />
 <Resource Key="PP.Tracking.PaymentMethods.PayPal" Value="PayPal" />
-<Resource Key="PP.Tracking.PaymentMethods.CashOnDelivery" Value="Cash On Delivery" />
-<Resource Key="PP.Tracking.Date" Value="Date" />
-<Resource Key="PP.Tracking.UpdatedOn" Value="Updated On" />
-<Resource Key="PP.Tracking.OrderUniqueCode" Value="Order Unique Code" />
-<Resource Key="PP.Tracking.OrderDetails" Value="Order Details" />
-<Resource Key="PP.Tracking.Item" Value="Item" />
-<Resource Key="PP.Tracking.Price" Value="Price" />
-<Resource Key="PP.Tracking.Quantity" Value="Quantity" />
+<Resource Key="PP.Tracking.PaymentMethods.CashOnDelivery" Value="Plata cash la livrare" />
+<Resource Key="PP.Tracking.Date" Value="Data" />
+<Resource Key="PP.Tracking.UpdatedOn" Value="actualizat la" />
+<Resource Key="PP.Tracking.OrderUniqueCode" Value="Cod unic de comanda" />
+<Resource Key="PP.Tracking.OrderDetails" Value="Detaliile comenzii" />
+<Resource Key="PP.Tracking.Item" Value="articol" />
+<Resource Key="PP.Tracking.Price" Value="Pret" />
+<Resource Key="PP.Tracking.Quantity" Value="Cantitate" />
 <Resource Key="PP.Tracking.Total" Value="Total" />
 <Resource Key="PP.Tracking.SubTotal" Value="Sub Total" />
-<Resource Key="PP.Tracking.Discount" Value="Discount" />
-<Resource Key="PP.Tracking.ShippingCharges" Value="Shipping Charges" />
-<Resource Key="PP.Tracking.DeliveryCharges" Value="Delivery Charges" />
-<Resource Key="PP.Tracking.FinalTotal" Value="Final Total" />
-<Resource Key="PP.Tracking.PromoApplied" Value="Promo Applied {promocode}." />
-<Resource Key="PP.Tracking.ContactDetails" Value="Contact Details" />
-<Resource Key="PP.Tracking.CustomerName" Value="Customer Name" />
-<Resource Key="PP.Tracking.CustomerEmail" Value="Customer Email" />
-<Resource Key="PP.Tracking.CustomerPhone" Value="Customer Phone" />
-<Resource Key="PP.Tracking.GuestOrder" Value="Guest Order" />
-<Resource Key="PP.Tracking.ShippingDetails" Value="Shipping Details" />
-<Resource Key="PP.Tracking.ShippingCountry" Value="Country" />
-<Resource Key="PP.Tracking.ShippingCity" Value="City" />
-<Resource Key="PP.Tracking.ShippingAddress" Value="Address" />
-<Resource Key="PP.Tracking.ShippingZipCode" Value="Zip Code" />
-<Resource Key="PP.Tracking.OrderHistory" Value="Order History" />
-<Resource Key="PP.Tracking.OrderTrackingNotAccessible" Value="Sorry! you can not check this order details." />
-<Resource Key="PP.Tracking.OrderCantBeTracked" Value="Sorry! We can not track your order details." />
-<Resource Key="PP.Cart.Title" Value="Your Shopping Cart" />
-<Resource Key="PP.Cart.Description" Value="Details of your shopping cart." />
-<Resource Key="PP.Cart.ItemImage" Value="Image" />
-<Resource Key="PP.Cart.ItemName" Value="Item" />
-<Resource Key="PP.Cart.ItemPrice" Value="Price" />
-<Resource Key="PP.Cart.ItemQuantity" Value="Quantity" />
+<Resource Key="PP.Tracking.Discount" Value="Reducere" />
+<Resource Key="PP.Tracking.ShippingCharges" Value="Taxa de expediere " />
+<Resource Key="PP.Tracking.DeliveryCharges" Value="Taxa de livrare" />
+<Resource Key="PP.Tracking.FinalTotal" Value="Totalul final" />
+<Resource Key="PP.Tracking.PromoApplied" Value="Cod promotional {promocode}." />
+<Resource Key="PP.Tracking.ContactDetails" Value="Detalii de contact" />
+<Resource Key="PP.Tracking.CustomerName" Value="Nume" />
+<Resource Key="PP.Tracking.CustomerEmail" Value="Email" />
+<Resource Key="PP.Tracking.CustomerPhone" Value="numar de telefon" />
+<Resource Key="PP.Tracking.GuestOrder" Value="Comanda utilizator neinregistrat" />
+<Resource Key="PP.Tracking.ShippingDetails" Value="Detaliile expedierii" />
+<Resource Key="PP.Tracking.ShippingCountry" Value="Tara" />
+<Resource Key="PP.Tracking.ShippingCity" Value="Orasul" />
+<Resource Key="PP.Tracking.ShippingAddress" Value="Adresa" />
+<Resource Key="PP.Tracking.ShippingZipCode" Value="Cod postal" />
+<Resource Key="PP.Tracking.OrderHistory" Value="Istoricul comenzii" />
+<Resource Key="PP.Tracking.OrderTrackingNotAccessible" Value="Ne pare rau! Nu poti verifica detaliile acestei comenzi." />
+<Resource Key="PP.Tracking.OrderCantBeTracked" Value="Ne pare rau! Nu putem urmarii detaliile comenzii tale." />
+<Resource Key="PP.Cart.Title" Value="Cosul tau de cumparaturi" />
+<Resource Key="PP.Cart.Description" Value="Detaliile cosului tau de cumparaturi." />
+<Resource Key="PP.Cart.ItemImage" Value="Imagine" />
+<Resource Key="PP.Cart.ItemName" Value="Articol" />
+<Resource Key="PP.Cart.ItemPrice" Value="Pret" />
+<Resource Key="PP.Cart.ItemQuantity" Value="Cantitate" />
 <Resource Key="PP.Cart.ItemTotal" Value="Total" />
-<Resource Key="PP.Cart.RemoveItem" Value="Remove Item" />
-<Resource Key="PP.Cart.EnterPromoCode" Value="Enter Voucher/Promo Code" />
-<Resource Key="PP.Cart.ApplyPromo" Value="Apply" />
-<Resource Key="PP.Cart.PromoAppliedSuccessfully" Value="Success. Enjoy discount of {discount}." />
-<Resource Key="PP.Cart.PromoExpired" Value="Sorry. This promo/voucher has expired." />
-<Resource Key="PP.Cart.InvalidPromo" Value="Invalid promo/voucher." />
-<Resource Key="PP.Cart.UpdateCart" Value="Update Cart" />
-<Resource Key="PP.Cart.ContinueShopping" Value="Continue Shopping" />
+<Resource Key="PP.Cart.RemoveItem" Value="Elimina articolul" />
+<Resource Key="PP.Cart.EnterPromoCode" Value="Introdu vocherul cadou sau codul promotional" />
+<Resource Key="PP.Cart.ApplyPromo" Value="Aplica" />
+<Resource Key="PP.Cart.PromoAppliedSuccessfully" Value="Felicitari!Bucura-te de discountul tau {discount}." />
+<Resource Key="PP.Cart.PromoExpired" Value="Ne pare rau!Acest cod promotional/vocher este expirat." />
+<Resource Key="PP.Cart.InvalidPromo" Value="Codul promo/vocherul nu este valid." />
+<Resource Key="PP.Cart.UpdateCart" Value="Actualizeaza cosul de cumparaturi" />
+<Resource Key="PP.Cart.ContinueShopping" Value="Continua Cumparaturile" />
 <Resource Key="PP.Cart.SubTotal" Value="Sub Total" />
-<Resource Key="PP.Cart.Discount" Value="Discount" />
-<Resource Key="PP.Cart.ShippingCharges" Value="Shipping Charges" />
-<Resource Key="PP.Cart.Total" Value="Final Total" />
-<Resource Key="PP.Cart.ProceedToCheckout" Value="Process to Checkout" />
-<Resource Key="PP.Checkout.Title" Value="Checkout" />
-<Resource Key="PP.Checkout.Description" Value="Checkout with your shopping cart products." />
-<Resource Key="PP.Checkout.ContactDetails" Value="Contact Details" />
-<Resource Key="PP.Checkout.ShippingDetails" Value="Shipping Details" />
-<Resource Key="PP.Checkout.Payment" Value="Payment" />
-<Resource Key="PP.Checkout.YourOrder" Value="Your Order" />
-<Resource Key="PP.Checkout.Product" Value="Product" />
+<Resource Key="PP.Cart.Discount" Value="Reducerea" />
+<Resource Key="PP.Cart.ShippingCharges" Value="Costuri de expediere" />
+<Resource Key="PP.Cart.Total" Value="Totalul final" />
+<Resource Key="PP.Cart.ProceedToCheckout" Value="Finalizarea platii" />
+<Resource Key="PP.Checkout.Title" Value="Verfica comanda" />
+<Resource Key="PP.Checkout.Description" Value="Verifica produsele din cosul tau de cumparaturi." />
+<Resource Key="PP.Checkout.ContactDetails" Value="Detalii de contact" />
+<Resource Key="PP.Checkout.ShippingDetails" Value="Detaliile expedierii" />
+<Resource Key="PP.Checkout.Payment" Value="Plata" />
+<Resource Key="PP.Checkout.YourOrder" Value="Comanda ta" />
+<Resource Key="PP.Checkout.Product" Value="Produs" />
 <Resource Key="PP.Checkout.Total" Value="Total" />
-<Resource Key="PP.Checkout.ItemQuantity" Value="Quantity" />
+<Resource Key="PP.Checkout.ItemQuantity" Value="Cantitate" />
 <Resource Key="PP.Checkout.SubTotal" Value="Sub Total" />
-<Resource Key="PP.Checkout.Discount" Value="Discount" />
-<Resource Key="PP.Checkout.PromoApplied" Value="Promo Applied: {promocode}" />
-<Resource Key="PP.Checkout.HavePromoApplyHere" Value="Have a promo? Apply here." />
-<Resource Key="PP.Checkout.ShippingCharges" Value="Shipping Charges" />
+<Resource Key="PP.Checkout.Discount" Value="Reducerea" />
+<Resource Key="PP.Checkout.PromoApplied" Value="Codul promotional a fost aplicat: {promocode}" />
+<Resource Key="PP.Checkout.HavePromoApplyHere" Value="Ai un cod promotional? Aplica-l aici." />
+<Resource Key="PP.Checkout.ShippingCharges" Value="Costuri expediere" />
 <Resource Key="PP.Checkout.Total" Value="Total" />
-<Resource Key="PP.Checkout.ModifyCartItemsHere" Value="Modify cart items here." />
-<Resource Key="PP.Checkout.NoProductsInCart" Value="No products in the cart. Please add some products in cart." />
-<Resource Key="PP.Checkout.FullName" Value="Full Name" />
+<Resource Key="PP.Checkout.ModifyCartItemsHere" Value="Modifica articolele din cosul de cumparaturi aici." />
+<Resource Key="PP.Checkout.NoProductsInCart" Value="Nu exista produse in cos. Te rugam sa adaugi produse in cos." />
+<Resource Key="PP.Checkout.FullName" Value="Numele complet" />
 <Resource Key="PP.Checkout.Email" Value="Email" />
-<Resource Key="PP.Checkout.PhoneNumber" Value="Phone Number" />
-<Resource Key="PP.Checkout.CreateAccount" Value="Create an account?" />
-<Resource Key="PP.Checkout.AlreadyHaveAccount" Value="Already have an account? Login." />
-<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameRequired" Value="Full Name is required." />
-<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="PP.Checkout.CreateAccount.Validations.ProvideValidEmail" Value="Provide a valid email address." />
-<Resource Key="PP.Checkout.CreateAccount.Validations.EmailRequired" Value="Email is required" />
-<Resource Key="PP.Checkout.Country" Value="Country" />
-<Resource Key="PP.Checkout.City" Value="City" />
-<Resource Key="PP.Checkout.Address" Value="Address" />
-<Resource Key="PP.Checkout.ZipCode" Value="Zip Code" />
-<Resource Key="PP.Checkout.Shipping.Validations.CountryRequired" Value="Country is required." />
-<Resource Key="PP.Checkout.Shipping.Validations.CityRequired" Value="City is required." />
-<Resource Key="PP.Checkout.Shipping.Validations.AddressRequired" Value="Address is required." />
-<Resource Key="PP.Checkout.Shipping.Validations.ZipCodeRequired" Value="Zip Code is required." />
-<Resource Key="PP.Checkout.PayViaCreditCard" Value="Pay via Credit Card" />
-<Resource Key="PP.Checkout.CardHolderName" Value="Card Holders Name" />
-<Resource Key="PP.Checkout.CardNumber" Value="Card Number" />
-<Resource Key="PP.Checkout.CardExpiryDate" Value="Card Expiry Date" />
-<Resource Key="PP.Checkout.CardExpiryMonth" Value="Card Expiry Month" />
-<Resource Key="PP.Checkout.CardExpiryYear" Value="Card Expiry Year" />
+<Resource Key="PP.Checkout.PhoneNumber" Value="Numarul de telefon" />
+<Resource Key="PP.Checkout.CreateAccount" Value="Cream un cont?" />
+<Resource Key="PP.Checkout.AlreadyHaveAccount" Value="Ai deja cont? Logheaza-te." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameRequired" Value="Este obligatoriu numele intreg." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMinimumLength" Value="Numarul minim de litere {min}." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMaximumLength" Value="Numarul maxim de litere {max}." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.ProvideValidEmail" Value="Introdu o adresa de email valida." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.EmailRequired" Value="Este obligatorie o adresa de email" />
+<Resource Key="PP.Checkout.Country" Value="Tara" />
+<Resource Key="PP.Checkout.City" Value="Orasul" />
+<Resource Key="PP.Checkout.Address" Value="Adresa" />
+<Resource Key="PP.Checkout.ZipCode" Value="Cod postal" />
+<Resource Key="PP.Checkout.Shipping.Validations.CountryRequired" Value="Este obligatoriu sa introduceti tara." />
+<Resource Key="PP.Checkout.Shipping.Validations.CityRequired" Value="Este obligatoriu sa introduceti orasul." />
+<Resource Key="PP.Checkout.Shipping.Validations.AddressRequired" Value="Este obligatoriu sa introduceti adresa." />
+<Resource Key="PP.Checkout.Shipping.Validations.ZipCodeRequired" Value="Este obligatoriu sa introduceti codul postal." />
+<Resource Key="PP.Checkout.PayViaCreditCard" Value="Plateste cu cardul de credit" />
+<Resource Key="PP.Checkout.CardHolderName" Value="Numele titularului cardului" />
+<Resource Key="PP.Checkout.CardNumber" Value="Numarul Cardului" />
+<Resource Key="PP.Checkout.CardExpiryDate" Value="Data de expirare" />
+<Resource Key="PP.Checkout.CardExpiryMonth" Value="luna de expirare a cardului" />
+<Resource Key="PP.Checkout.CardExpiryYear" Value="anul de expirare a cardului" />
 <Resource Key="PP.Checkout.CardCVC" Value="CVC" />
-<Resource Key="PP.Checkout.CardInfoNotSaved" Value="Rest assured that we do not store your credit card details on our servers." />
-<Resource Key="PP.Checkout.CardPayNow" Value="Pay Now" />
-<Resource Key="PP.Checkout.CreditCard.Validations.CardHolderNameRequired" Value="Card Holders Name is required." />
-<Resource Key="PP.Checkout.CreditCard.Validations.CardNumberRequired" Value="Card Number is required." />
-<Resource Key="PP.Checkout.CreditCard.Validations.CardNumberMustBeValid" Value="Card Number must be valid." />
-<Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryMonthRequired" Value="Card Expiry Month is required." />
-<Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryYearRequired" Value="Card Expiry Year is required." />
-<Resource Key="PP.Checkout.CreditCard.Validations.CVCRequired" Value="CVC number is required." />
-<Resource Key="PP.Checkout.CreditCard.Validations.CVCMustBeValid" Value="CVC must be numeric." />
-<Resource Key="PP.Checkout.PayViaCashOnDelivery" Value="Pay via Cash on Delivery" />
-<Resource Key="PP.Checkout.PlaceOrder" Value="Place Order" />
-<Resource Key="PP.Checkout.PayViaPayPal" Value="Pay via PayPal" />
-<Resource Key="PP.Checkout.PayPalAmountNote" Value="You will pay '{amount}' in {currency} via PayPal." />
-<Resource Key="PP.Checkout.PayPal.ConfirmOrderAgain" Value="Confirm Order" />
-<Resource Key="PP.Checkout.Validations.PayPalOrderIssue" Value="PayPal order details not found." />
-<Resource Key="PP.Checkout.Validations.PleaseCompleteRequiredFields" Value="Please complete the required fields." />
-<Resource Key="PP.Checkout.OrderPlacedSuccessfully" Value="Your order has been placed successfuly." />
-<Resource Key="PP.Register.Title" Value="Register Account" />
-<Resource Key="PP.Register.Description" Value="Register your account on {application}." />
-<Resource Key="PP.Register.FullName" Value="Full Name" />
-<Resource Key="PP.Register.FullNamePlaceholder" Value="Full Name" />
+<Resource Key="PP.Checkout.CardInfoNotSaved" Value="Fiti sigur ca nu stocam detaliile cardului dvs. de credit pe serverele noastre." />
+<Resource Key="PP.Checkout.CardPayNow" Value="Plateste acum" />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardHolderNameRequired" Value="Numele titularului cardului este obligatoriu." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardNumberRequired" Value="Numarul cardului este obligatoriu." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardNumberMustBeValid" Value="Numarul cardului trebuie sa fie valid." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryMonthRequired" Value="luna de expirare a cardului este obligatorie." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryYearRequired" Value="anul de expirare a cardului este obligatoriu." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CVCRequired" Value="numarul CVC este obligatoriu." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CVCMustBeValid" Value="CVC-ul trebuie sa fie valid." />
+<Resource Key="PP.Checkout.PayViaCashOnDelivery" Value="Plateste cash la livrare" />
+<Resource Key="PP.Checkout.PlaceOrder" Value="Plaseaza comanda" />
+<Resource Key="PP.Checkout.PayViaPayPal" Value="Plateste prin PayPal" />
+<Resource Key="PP.Checkout.PayPalAmountNote" Value="Vei plati '{amount}' prin {currency} PayPal." />
+<Resource Key="PP.Checkout.PayPal.ConfirmOrderAgain" Value="Confirma Comanda" />
+<Resource Key="PP.Checkout.Validations.PayPalOrderIssue" Value="Detaliile platii prin PayPal nu au fost gasite." />
+<Resource Key="PP.Checkout.Validations.PleaseCompleteRequiredFields" Value="Te rugam sa completezi campurile obligatorii." />
+<Resource Key="PP.Checkout.OrderPlacedSuccessfully" Value="Comanda ta a fost plasata cu succes." />
+<Resource Key="PP.Register.Title" Value="Inregistreaza-te" />
+<Resource Key="PP.Register.Description" Value="Inregistreza-ti contul pe {application}." />
+<Resource Key="PP.Register.FullName" Value="Nume complet" />
+<Resource Key="PP.Register.FullNamePlaceholder" Value="Nume complet" />
 <Resource Key="PP.Register.Email" Value="Email" />
 <Resource Key="PP.Register.EmailPlaceholder" Value="Email" />
-<Resource Key="PP.Register.Username" Value="Username" />
-<Resource Key="PP.Register.UsernamePlaceholder" Value="Username" />
-<Resource Key="PP.Register.Password" Value="Password" />
-<Resource Key="PP.Register.PasswordPlaceholder" Value="Password" />
-<Resource Key="PP.Register.ConfirmPassword" Value="Confirm Password" />
-<Resource Key="PP.Register.ConfirmPasswordPlaceholder" Value="Confirm Password" />
-<Resource Key="PP.Register.RegisterAccount" Value="Register" />
-<Resource Key="PP.Register.LoginAccount" Value="Or Login With Existing Account" />
-<Resource Key="PP.Register.Validation.FullNameRequired" Value="Full Name is required." />
-<Resource Key="PP.Register.Validation.UsernameRequired" Value="Username is required." />
-<Resource Key="PP.Register.Validation.EmailRequired" Value="Email is required." />
-<Resource Key="PP.Register.Validation.EmailFormat" Value="Please provide a valid email." />
-<Resource Key="PP.Register.Validation.PasswordRequired" Value="Password is required." />
-<Resource Key="PP.Register.Validation.ConfirmPasswordRequired" Value="Confirm Password is required." />
-<Resource Key="PP.Register.Validation.PasswordNotMatched" Value="Password and Confirm Password not matched." />
+<Resource Key="PP.Register.Username" Value="Numele utilizatorului" />
+<Resource Key="PP.Register.UsernamePlaceholder" Value="Numele utilizatorului" />
+<Resource Key="PP.Register.Password" Value="Parola" />
+<Resource Key="PP.Register.PasswordPlaceholder" Value="Parola" />
+<Resource Key="PP.Register.ConfirmPassword" Value="Confirma parola" />
+<Resource Key="PP.Register.ConfirmPasswordPlaceholder" Value="Confirma parola" />
+<Resource Key="PP.Register.RegisterAccount" Value="Inregistreaza-te" />
+<Resource Key="PP.Register.LoginAccount" Value="sau logheaza-te cu un cont existent" />
+<Resource Key="PP.Register.Validation.FullNameRequired" Value="Numele complet este obligatoriu." />
+<Resource Key="PP.Register.Validation.UsernameRequired" Value="Numele de utilizator este obligatoriu." />
+<Resource Key="PP.Register.Validation.EmailRequired" Value="Emailul este obligatoriu." />
+<Resource Key="PP.Register.Validation.EmailFormat" Value="Te rugam introdu o adresa de email valida." />
+<Resource Key="PP.Register.Validation.PasswordRequired" Value="Parola este obligatorie." />
+<Resource Key="PP.Register.Validation.ConfirmPasswordRequired" Value="Confirmarea parolei este obligatorie." />
+<Resource Key="PP.Register.Validation.PasswordNotMatched" Value="Confirmarea parolei este gresita ." />
 <Resource Key="PP.Login.Title" Value="Intra in cont" />
 <Resource Key="PP.Login.Description" Value="Logheaza-te in contul tau de {application}." />
 <Resource Key="PP.Login.Username" Value="Nume utilizator" />
@@ -265,63 +265,63 @@
 <Resource Key="PP.Login.RegisterAccount" Value="Cont nou" />
 <Resource Key="PP.Login.Validation.UsernameRequired" Value="Numele de utilizator." />
 <Resource Key="PP.Login.Validation.PasswordRequired" Value="Parola." />
-<Resource Key="PP.Login.Validation.InvalidLoginAttempt" Value="Invalid login attempt." />
-<Resource Key="PP.Login.Validation.LockedOut" Value="You are locked out." />
-<Resource Key="PP.ForgotPassword.Title" Value="Forgot Password" />
-<Resource Key="PP.ForgotPassword.Description" Value="Recover your {application} account." />
-<Resource Key="PP.ForgotPassword.Username" Value="Username" />
-<Resource Key="PP.ForgotPassword.UsernamePlaceholder" Value="Username" />
-<Resource Key="PP.ForgotPassword.Validation.UsernameRequired" Value="Username is required." />
-<Resource Key="PP.ForgotPassword.RecoverAccount" Value="Recover Account" />
-<Resource Key="PP.ForgotPassword.PasswordResetEmailSuccess" Value="Please check your email. A password reset link has been sent to your accounts email." />
-<Resource Key="PP.ResetPassword.Title" Value="Reset Password" />
-<Resource Key="PP.ResetPassword.Description" Value="Reset password for your account on {application}." />
-<Resource Key="PP.ResetPassword.Password" Value="Password" />
-<Resource Key="PP.ResetPassword.PasswordPlaceholder" Value="Password" />
-<Resource Key="PP.ResetPassword.ConfirmPassword" Value="Confirm Password" />
-<Resource Key="PP.ResetPassword.ConfirmPasswordPlaceholder" Value="Confirm Password" />
-<Resource Key="PP.ResetPassword.ResetPassword" Value="Reset Password" />
-<Resource Key="PP.ResetPassword.LoginAccount" Value="Login to Account" />
-<Resource Key="PP.ResetPassword.Validation.PasswordRequired" Value="Password is required." />
-<Resource Key="PP.ResetPassword.Validation.ConfirmPasswordRequired" Value="Confirm Password is required." />
-<Resource Key="PP.ResetPassword.Validation.PasswordNotMatched" Value="Password and Confirm Password not matched." />
-<Resource Key="PP.UserProfile.Title" Value="User Profile" />
-<Resource Key="PP.UserProfile.Description" Value="Review your profile and related data on {application}." />
-<Resource Key="PP.UserProfile.Username" Value="Username" />
-<Resource Key="PP.UserProfile.Info" Value="Info" />
-<Resource Key="PP.UserProfile.ChangePassword" Value="Change Password" />
-<Resource Key="PP.UserProfile.ChangeAvatar" Value="Change Avatar" />
-<Resource Key="PP.UserProfile.Orders" Value="Orders" />
-<Resource Key="PP.UserProfile.Comments" Value="Comments" />
-<Resource Key="PP.UserProfile.Info.FullName" Value="Full Name" />
+<Resource Key="PP.Login.Validation.InvalidLoginAttempt" Value="Incercarea de logare este invalida." />
+<Resource Key="PP.Login.Validation.LockedOut" Value="Ati depasit limita de incercari disponibile." />
+<Resource Key="PP.ForgotPassword.Title" Value="Ati uitat parola?" />
+<Resource Key="PP.ForgotPassword.Description" Value="Recupereaza-ti {application} contul." />
+<Resource Key="PP.ForgotPassword.Username" Value="Numele de utilizator" />
+<Resource Key="PP.ForgotPassword.UsernamePlaceholder" Value="Numele de utilizator" />
+<Resource Key="PP.ForgotPassword.Validation.UsernameRequired" Value="Numele de utilizator este disponibil." />
+<Resource Key="PP.ForgotPassword.RecoverAccount" Value="Recuperare cont" />
+<Resource Key="PP.ForgotPassword.PasswordResetEmailSuccess" Value="Te rugam sa-ti verifici emailul. Un link de resetare al parolei a fost trimis pe contul dumneavostra de email." />
+<Resource Key="PP.ResetPassword.Title" Value="Resetare parola" />
+<Resource Key="PP.ResetPassword.Description" Value="Reseteza-ti parola pentru contul tau in {application}." />
+<Resource Key="PP.ResetPassword.Password" Value="Parola" />
+<Resource Key="PP.ResetPassword.PasswordPlaceholder" Value="Parola" />
+<Resource Key="PP.ResetPassword.ConfirmPassword" Value="Confirma parola" />
+<Resource Key="PP.ResetPassword.ConfirmPasswordPlaceholder" Value="Confirma parola" />
+<Resource Key="PP.ResetPassword.ResetPassword" Value="Reseteaza parola" />
+<Resource Key="PP.ResetPassword.LoginAccount" Value="Intra in cont" />
+<Resource Key="PP.ResetPassword.Validation.PasswordRequired" Value="Parola este obligatorie." />
+<Resource Key="PP.ResetPassword.Validation.ConfirmPasswordRequired" Value="Confirmarea parolei este obligatorie." />
+<Resource Key="PP.ResetPassword.Validation.PasswordNotMatched" Value="Confirmarea parolei este gresita." />
+<Resource Key="PP.UserProfile.Title" Value="Profilul utilizatorului" />
+<Resource Key="PP.UserProfile.Description" Value="Verifica-ti profilul si datele in {application}." />
+<Resource Key="PP.UserProfile.Username" Value="Nume de utilizator" />
+<Resource Key="PP.UserProfile.Info" Value="Informatii" />
+<Resource Key="PP.UserProfile.ChangePassword" Value="Schimba parola" />
+<Resource Key="PP.UserProfile.ChangeAvatar" Value="Schimba avatarul" />
+<Resource Key="PP.UserProfile.Orders" Value="Comenzi" />
+<Resource Key="PP.UserProfile.Comments" Value="Comentarii" />
+<Resource Key="PP.UserProfile.Info.FullName" Value="Nume complet" />
 <Resource Key="PP.UserProfile.Info.Email" Value="Email" />
-<Resource Key="PP.UserProfile.Info.Username" Value="Username" />
-<Resource Key="PP.UserProfile.Info.PhoneNumber" Value="Phone Number" />
-<Resource Key="PP.UserProfile.Info.Country" Value="Country" />
-<Resource Key="PP.UserProfile.Info.City" Value="City" />
-<Resource Key="PP.UserProfile.Info.Address" Value="Address" />
-<Resource Key="PP.UserProfile.Info.ZipCode" Value="Zip Code" />
-<Resource Key="PP.UserProfile.Info.UpdateInfo" Value="Update Info" />
-<Resource Key="PP.UserProfile.Info.UserInfoUpdated" Value="User info updated." />
-<Resource Key="PP.UserProfile.Info.Validations.FullNameRequired" Value="Full Name is required." />
-<Resource Key="PP.UserProfile.Info.Validations.FullNameMin" Value="Minimum Length is {min}." />
-<Resource Key="PP.UserProfile.Info.Validations.FullNameMax" Value="Maximum Length is {max}." />
-<Resource Key="PP.UserProfile.Info.Validations.EmailFormat" Value="Please provide a valid email." />
-<Resource Key="PP.UserProfile.Info.Validations.EmailRequired" Value="Email address is required." />
-<Resource Key="PP.UserProfile.Info.Validations.UsernameRequired" Value="Username is required." />
-<Resource Key="PP.UserProfile.Info.Validations.CountryRequired" Value="Country is required." />
-<Resource Key="PP.UserProfile.Info.Validations.CityRequired" Value="City is required." />
-<Resource Key="PP.UserProfile.Info.Validations.AddressRequired" Value="Address is required." />
-<Resource Key="PP.UserProfile.Info.Validations.ZipCodeRequired" Value="Zip Code is required." />
-<Resource Key="PP.UserProfile.ChangePassword.CurrentPassword" Value="Current Password" />
-<Resource Key="PP.UserProfile.ChangePassword.NewPassword" Value="New Password" />
-<Resource Key="PP.UserProfile.ChangePassword.ConfirmPassword" Value="Confirm Password" />
-<Resource Key="PP.UserProfile.ChangePassword.UpdatePassword" Value="Update Password" />
-<Resource Key="PP.UserProfile.ChangePassword.Validations.OldPasswordRequired" Value="Old Password is required." />
-<Resource Key="PP.UserProfile.ChangePassword.Validations.NewPasswordRequired" Value="New Password is required." />
-<Resource Key="PP.UserProfile.ChangePassword.Validations.ConfirmPasswordRequired" Value="Confirm Password is required." />
-<Resource Key="PP.UserProfile.ChangePassword.Validations.PasswordsNotMatched" Value="New Password and Confirm Password are not matched." />
-<Resource Key="PP.UserProfile.ChangePassword.PasswordsUpdated" Value="Password updated successfully." />
+<Resource Key="PP.UserProfile.Info.Username" Value="Nume utilizator" />
+<Resource Key="PP.UserProfile.Info.PhoneNumber" Value="Numar de telefon" />
+<Resource Key="PP.UserProfile.Info.Country" Value="Tara" />
+<Resource Key="PP.UserProfile.Info.City" Value="Oras" />
+<Resource Key="PP.UserProfile.Info.Address" Value="Adresa" />
+<Resource Key="PP.UserProfile.Info.ZipCode" Value="Cod postal" />
+<Resource Key="PP.UserProfile.Info.UpdateInfo" Value="Actulizare informatii" />
+<Resource Key="PP.UserProfile.Info.UserInfoUpdated" Value="Actualizare informatii utilizator." />
+<Resource Key="PP.UserProfile.Info.Validations.FullNameRequired" Value="Numele complet este obligatoriu." />
+<Resource Key="PP.UserProfile.Info.Validations.FullNameMin" Value="Numarul minim de litere este de {min}." />
+<Resource Key="PP.UserProfile.Info.Validations.FullNameMax" Value="Numarul maxim de litere ete de {max}." />
+<Resource Key="PP.UserProfile.Info.Validations.EmailFormat" Value="Te rugam introdu o adresa de email valida." />
+<Resource Key="PP.UserProfile.Info.Validations.EmailRequired" Value="Adresa de email este obligatorie." />
+<Resource Key="PP.UserProfile.Info.Validations.UsernameRequired" Value="Numele de utilizator este obligatoriu." />
+<Resource Key="PP.UserProfile.Info.Validations.CountryRequired" Value="Tara este obligatorie." />
+<Resource Key="PP.UserProfile.Info.Validations.CityRequired" Value="Orasul este obligatoriu." />
+<Resource Key="PP.UserProfile.Info.Validations.AddressRequired" Value="Adresa este obligatorie." />
+<Resource Key="PP.UserProfile.Info.Validations.ZipCodeRequired" Value="Codul postal este obligatoriu." />
+<Resource Key="PP.UserProfile.ChangePassword.CurrentPassword" Value="Parola actuala" />
+<Resource Key="PP.UserProfile.ChangePassword.NewPassword" Value="Parola noua" />
+<Resource Key="PP.UserProfile.ChangePassword.ConfirmPassword" Value="Confirma parola" />
+<Resource Key="PP.UserProfile.ChangePassword.UpdatePassword" Value="Actualizeaza parola" />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.OldPasswordRequired" Value="Parola veche este obligatorie." />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.NewPasswordRequired" Value="Parola noua este obligatorie." />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.ConfirmPasswordRequired" Value="Confirmarea parolei este obligatorie." />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.PasswordsNotMatched" Value="Confirmarea parolei este gresita." />
+<Resource Key="PP.UserProfile.ChangePassword.PasswordsUpdated" Value="Parola a fost actualizata cu succes." />
 <Resource Key="PP.UserProfile.ChangeAvatar.Avatar" Value="Avatar" />
 <Resource Key="PP.UserProfile.ChangeAvatar.SelectAvatar" Value="Select Avatar" />
 <Resource Key="PP.UserProfile.ChangeAvatar.UpdateAvatar" Value="Update Avatar" />

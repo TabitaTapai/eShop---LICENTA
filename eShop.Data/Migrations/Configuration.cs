@@ -14,10 +14,10 @@ namespace eShop.Data.Migrations
 
         protected override void Seed(eShop.Data.eShopContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            //  Aceasta metoda va fi apelata dupa migrarea la cea mai recenta versiune
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            //  e poate utiliza metoda DbSet<T>.AddOrUpdate() din helper 
+            //  pentru a evita seed duplicat
         }
     }
 }

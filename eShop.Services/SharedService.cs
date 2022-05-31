@@ -46,7 +46,7 @@ namespace eShop.Services
         {
             var context = DataContextHelper.GetNewContext();
 
-            //check for an existing subscription.
+            //verificare existenta subscriptie
             var existingSubscription = context.NewsletterSubscriptions.FirstOrDefault(x => x.EmailAddress == newsletterSubscription.EmailAddress);
 
             if(existingSubscription == null)

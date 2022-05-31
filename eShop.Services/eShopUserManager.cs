@@ -23,14 +23,14 @@ namespace eShop.Services
         {
             var manager = new eShopUserManager(new UserStore<eShopUser>(context.Get<eShopContext>()));
 
-            // Configure validation logic for usernames
+            // configurare logica de validare pentru nume utilizator
             manager.UserValidator = new UserValidator<eShopUser>(manager)
             {
                 AllowOnlyAlphanumericUserNames = true,
                 RequireUniqueEmail = true
             };
 
-            // Configure validation logic for passwords
+            // configurare logica de validare pentru parola
             manager.PasswordValidator = new PasswordValidator
             {
                 RequiredLength = 4,
@@ -40,13 +40,13 @@ namespace eShop.Services
                 RequireUppercase = false,
             };
 
-            // Configure user lockout defaults
+            // configurare valori implicite de blocare a utilizatorului
             manager.UserLockoutEnabledByDefault = true;
             manager.DefaultAccountLockoutTimeSpan = TimeSpan.FromMinutes(5);
             manager.MaxFailedAccessAttemptsBeforeLockout = 5;
 
-            // Register two factor authentication providers. This application uses Phone and Emails as a step of receiving a code for verifying the user
-            // You can write your own provider and plug it in here.
+            // Inregistrate autorizare in 2 pasi cu telefonul sau mail-ul
+            
             manager.RegisterTwoFactorProvider("Phone Code", new PhoneNumberTokenProvider<eShopUser>
             {
                 MessageFormat = "Your security code is {0}"

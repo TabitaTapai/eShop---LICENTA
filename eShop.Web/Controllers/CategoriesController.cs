@@ -20,7 +20,7 @@ namespace eShop.Web.Controllers
 
             if(categories != null && categories.Count > 0)
             {
-                //remove uncategorized category from categories list.
+                //uncategorized trebuie scoasa din lista de categorii
                 categories = categories.Where(x => x.ID != 1).ToList();
 
                 model.CategoryWithChildrens = CategoryHelpers.MakeCategoriesHierarchy(categories);
