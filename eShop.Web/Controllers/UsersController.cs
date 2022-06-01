@@ -89,7 +89,9 @@ namespace eShop.Web.Controllers
         }
 
         [HttpPost]
+        // acces utilizatorilor neautentificati pentru actiuni individuale
         [AllowAnonymous]
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public async Task<JsonResult> Register(RegisterViewModel model)
         {
@@ -135,7 +137,9 @@ namespace eShop.Web.Controllers
         }
 
         [HttpPost]
+        // acces utilizatorilor neautentificati pentru actiuni individuale
         [AllowAnonymous]
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public async Task<JsonResult> Login(LoginViewModel model)
         {
@@ -164,11 +168,13 @@ namespace eShop.Web.Controllers
         }
 
         [HttpPost]
+        // acces utilizatorilor neautentificati pentru actiuni individuale
         [AllowAnonymous]
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public ActionResult SocialLogin(string provider, string returnUrl)
         {
-            // Request a redirect to the external login provider
+            // se solicita redirectionare catre furnizor extern de conectare eg. Facebook
             return new ChallengeResult(provider, Url.SocialLoginCallback());
         }
 
@@ -181,7 +187,7 @@ namespace eShop.Web.Controllers
                 return Redirect(Url.Login(returnUrl));
             }
 
-            // Sign in the user with this external login provider if the user already has a login
+            // logare utilizator cu datele de logare de Facebook
             var result = await SignInManager.ExternalSignInAsync(loginInfo, isPersistent: false);
             switch (result)
             {
@@ -193,7 +199,7 @@ namespace eShop.Web.Controllers
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = false });
                 case SignInStatus.Failure:
                 default:
-                    // If the user does not have an existing account, then create an account
+                    // daca user-ul nu are cont atunci creaza unul
                     var user = new eShopUser { UserName = loginInfo.DefaultUserName, Email = loginInfo.Email };
                     var createUserResult = await UserManager.CreateAsync(user);
                     if (createUserResult.Succeeded)
@@ -211,6 +217,7 @@ namespace eShop.Web.Controllers
         }
 
         [HttpPost]
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
@@ -219,6 +226,7 @@ namespace eShop.Web.Controllers
             return Redirect(Url.Home());
         }
 
+        // acces utilizatorilor neautentificati pentru actiuni individuale
         [AllowAnonymous]
         public ActionResult ForgotPassword()
         {
@@ -226,7 +234,9 @@ namespace eShop.Web.Controllers
         }
 
         [HttpPost]
+        // acces utilizatorilor neautentificati pentru actiuni individuale
         [AllowAnonymous]
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public async Task<JsonResult> ForgotPassword(ForgotPasswordViewModel model)
         {
@@ -241,8 +251,8 @@ namespace eShop.Web.Controllers
                 await UserManager.SendEmailAsync(user.Id, "Reset " + ConfigurationsHelper.ApplicationName + " Password", "Please reset your " + ConfigurationsHelper.ApplicationName + " password by clicking <a href=\"" + callbackUrl + "\">here</a>");
             }
 
-            // Don't reveal that the user does not exist or is not confirmed for security measures.
-            // Just give a success message in every case.
+            // nu vom afisa deoarece userul inca nu exista, nu a confirmat
+            // dar afisam un mesaj de succes
 
             JsonResult jResult = new JsonResult
             {
@@ -251,6 +261,7 @@ namespace eShop.Web.Controllers
             return jResult;
         }
 
+        // acces utilizatorilor neautentificati pentru actiuni individuale
         [AllowAnonymous]
         public ActionResult ResetPassword(string code, string userId)
         {
@@ -264,7 +275,9 @@ namespace eShop.Web.Controllers
         }
 
         [HttpPost]
+        // acces utilizatorilor neautentificati pentru actiuni individuale
         [AllowAnonymous]
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public async Task<JsonResult> ResetPassword(ResetPasswordViewModel model)
         {

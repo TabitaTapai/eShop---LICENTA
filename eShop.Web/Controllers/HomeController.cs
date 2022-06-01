@@ -19,7 +19,7 @@ namespace eShop.Web.Controllers
     {
         public ActionResult Index()
         {         
-            //facem redirectare catre limba default daca home page este accesata fara limba si daca este activata Multilingual
+            //facem redirectare catre limba default daca home page este accesata fara limba si daca este activata Multilingual true
             if(ConfigurationsHelper.EnableMultilingual && Request.Url.AbsolutePath.ToString().Equals("/"))
             {
                 return Redirect(Url.Home());
@@ -91,6 +91,7 @@ namespace eShop.Web.Controllers
             return PartialView("SearchFilters/_PriceRangeFilter", model);
         }
 
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public JsonResult SubscribeNewsLetter(string email)
         {
@@ -127,6 +128,7 @@ namespace eShop.Web.Controllers
             return jsonResult;
         }
 
+        // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
         public async Task<JsonResult> SubmitContactForm(string subject, string name, string email, string message)
         {
