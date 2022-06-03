@@ -95,7 +95,7 @@
     <Compile Include="Attributes\CustomAuthorize.cs" />
     <Compile Include="Attributes\OutputProcessorAttribute.cs" />
     <Compile Include="Attributes\PageDetailAttribute.cs" />
-    <Compile Include="Commons\eCommerceConstants.cs" />
+    <Compile Include="Commons\eShopConstants.cs" />
     <Compile Include="Enums\Environments.cs" />
     <Compile Include="Enums\RecordSizeEnums.cs" />
     <Compile Include="Extensions\IdentityExtensions.cs" />

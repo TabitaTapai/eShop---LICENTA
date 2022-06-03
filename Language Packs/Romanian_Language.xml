@@ -290,7 +290,7 @@
 <Resource Key="PP.UserProfile.Username" Value="Nume de utilizator" />
 <Resource Key="PP.UserProfile.Info" Value="Informatii" />
 <Resource Key="PP.UserProfile.ChangePassword" Value="Schimba parola" />
-<Resource Key="PP.UserProfile.ChangeAvatar" Value="Schimba avatarul" />
+<Resource Key="PP.UserProfile.ChangeAvatar" Value="Schimba imagine utilizator" />
 <Resource Key="PP.UserProfile.Orders" Value="Comenzi" />
 <Resource Key="PP.UserProfile.Comments" Value="Comentarii" />
 <Resource Key="PP.UserProfile.Info.FullName" Value="Nume complet" />
@@ -322,347 +322,347 @@
 <Resource Key="PP.UserProfile.ChangePassword.Validations.ConfirmPasswordRequired" Value="Confirmarea parolei este obligatorie." />
 <Resource Key="PP.UserProfile.ChangePassword.Validations.PasswordsNotMatched" Value="Confirmarea parolei este gresita." />
 <Resource Key="PP.UserProfile.ChangePassword.PasswordsUpdated" Value="Parola a fost actualizata cu succes." />
-<Resource Key="PP.UserProfile.ChangeAvatar.Avatar" Value="Avatar" />
-<Resource Key="PP.UserProfile.ChangeAvatar.SelectAvatar" Value="Select Avatar" />
-<Resource Key="PP.UserProfile.ChangeAvatar.UpdateAvatar" Value="Update Avatar" />
-<Resource Key="PP.UserProfile.ChangeAvatar.AvatarUpdated" Value="Avatar updated successfully." />
-<Resource Key="PP.UserProfile.ChangeAvatar.Validations.SelectAvatar" Value="Please select a picture." />
-<Resource Key="PP.UserProfile.UserOrders.OrderIDPlaceholder" Value="Search by Order ID" />
-<Resource Key="PP.UserProfile.UserOrders.SelectByOrderStatus" Value="Select by Order Status…" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Placed" Value="Placed" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Processing" Value="Processing" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Delivered" Value="Delivered" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Failed" Value="Failed" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Cancelled" Value="Cancelled" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.OnHold" Value="OnHold" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.WaitingForPayment" Value="Waiting For Payment" />
-<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Refunded" Value="Refunded" />
-<Resource Key="PP.UserProfile.UserOrders.SearchOrders" Value="Search" />
-<Resource Key="PP.UserProfile.UserOrders.Reset" Value="Reset" />
-<Resource Key="PP.UserProfile.UserOrders.OrderID" Value="Order ID" />
-<Resource Key="PP.UserProfile.UserOrders.PlacedOnDate" Value="Placed On Date" />
-<Resource Key="PP.UserProfile.UserOrders.OrderAmount" Value="Order Amount" />
+<Resource Key="PP.UserProfile.ChangeAvatar.Avatar" Value="Imagine utilizator" />
+<Resource Key="PP.UserProfile.ChangeAvatar.SelectAvatar" Value="Selecteaza imagine utilizator" />
+<Resource Key="PP.UserProfile.ChangeAvatar.UpdateAvatar" Value="Actualizeaza imagine utilizator" />
+<Resource Key="PP.UserProfile.ChangeAvatar.AvatarUpdated" Value="Imagine actualizata cu succes." />
+<Resource Key="PP.UserProfile.ChangeAvatar.Validations.SelectAvatar" Value="Te rugam selecteaza o fotografie." />
+<Resource Key="PP.UserProfile.UserOrders.OrderIDPlaceholder" Value="Cauta dupa ID-ul comenzii" />
+<Resource Key="PP.UserProfile.UserOrders.SelectByOrderStatus" Value="Selectati dupa statusul comenzii" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Placed" Value="Plasata" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Processing" Value="Comanda in procesare" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Delivered" Value="Livrata" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Failed" Value="Eroare" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Cancelled" Value="Anulata" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.OnHold" Value="In asteptare" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.WaitingForPayment" Value="In asteptarea platii" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Refunded" Value="Retur" />
+<Resource Key="PP.UserProfile.UserOrders.SearchOrders" Value="Cauta" />
+<Resource Key="PP.UserProfile.UserOrders.Reset" Value="Reseteaza" />
+<Resource Key="PP.UserProfile.UserOrders.OrderID" Value="ID comanda" />
+<Resource Key="PP.UserProfile.UserOrders.PlacedOnDate" Value="Plasata la data" />
+<Resource Key="PP.UserProfile.UserOrders.OrderAmount" Value="Cantitatea comenzii" />
 <Resource Key="PP.UserProfile.UserOrders.Status" Value="Status" />
-<Resource Key="PP.UserProfile.UserOrders.Actions" Value="Actions" />
-<Resource Key="PP.UserProfile.UserOrders.UpdatedOn" Value="Updated On" />
-<Resource Key="PP.UserProfile.UserOrders.Track" Value="Track" />
-<Resource Key="PP.UserProfile.UserOrders.Previous" Value="Previous" />
-<Resource Key="PP.UserProfile.UserOrders.Next" Value="Next" />
-<Resource Key="PP.UserProfile.UserOrders.NoOrdersFound" Value="No Orders found." />
-<Resource Key="PP.UserProfile.UserComments.SearchCommentsPlaceholder" Value="Search in Comments" />
-<Resource Key="PP.UserProfile.UserComments.SearchComments" Value="Search" />
-<Resource Key="PP.UserProfile.UserComments.Reset" Value="Reset" />
+<Resource Key="PP.UserProfile.UserOrders.Actions" Value="Actiuni" />
+<Resource Key="PP.UserProfile.UserOrders.UpdatedOn" Value="Actualizat la" />
+<Resource Key="PP.UserProfile.UserOrders.Track" Value="Urmareste" />
+<Resource Key="PP.UserProfile.UserOrders.Previous" Value="Anterior" />
+<Resource Key="PP.UserProfile.UserOrders.Next" Value="Urmatorul" />
+<Resource Key="PP.UserProfile.UserOrders.NoOrdersFound" Value="Nici o comanda nu a fost gasita." />
+<Resource Key="PP.UserProfile.UserComments.SearchCommentsPlaceholder" Value="Cauta in comentarii" />
+<Resource Key="PP.UserProfile.UserComments.SearchComments" Value="Cauta" />
+<Resource Key="PP.UserProfile.UserComments.Reset" Value="Reseteaza" />
 <Resource Key="PP.UserProfile.UserComments.CommentUserName" Value="{user}" />
 <Resource Key="PP.UserProfile.UserComments.CommentTimestamp" Value="{datetime}" />
-<Resource Key="PP.UserProfile.UserComments.DeleteComment" Value="Delete Comment" />
-<Resource Key="PP.UserProfile.UserComments.CommentDeleteWarning" Value="Are you sure you want to delete this comment?" />
-<Resource Key="PP.UserProfile.UserComments.CommentDeleteConfirm" Value="Yes, delete it!" />
-<Resource Key="PP.UserProfile.UserComments.CommentDeleteCancel" Value="No, Dont delete." />
-<Resource Key="PP.UserProfile.UserComments.Previous" Value="Previous" />
-<Resource Key="PP.UserProfile.UserComments.Next" Value="Next" />
-<Resource Key="PP.UserProfile.UserComments.NoCommentsFound" Value="No comments found." />
-<Resource Key="PP.PrintInvoice.Title" Value="Print Invoice Order : {orderid}" />
-<Resource Key="PP.PrintInvoice.Description" Value="Print invoice for your order." />
-<Resource Key="PP.PrintInvoice.OrderID" Value="Order ID" />
-<Resource Key="PP.PrintInvoice.Dated" Value="Dated" />
+<Resource Key="PP.UserProfile.UserComments.DeleteComment" Value="Sterge comentariul" />
+<Resource Key="PP.UserProfile.UserComments.CommentDeleteWarning" Value="Esti sigur ca vrei sa stergi acest comentariu?" />
+<Resource Key="PP.UserProfile.UserComments.CommentDeleteConfirm" Value="Da, sterge-l!" />
+<Resource Key="PP.UserProfile.UserComments.CommentDeleteCancel" Value="Nu, nu-l sterge." />
+<Resource Key="PP.UserProfile.UserComments.Previous" Value="Anterior" />
+<Resource Key="PP.UserProfile.UserComments.Next" Value="Urmatorul" />
+<Resource Key="PP.UserProfile.UserComments.NoCommentsFound" Value="Nici un comentariu nu a fost gasit." />
+<Resource Key="PP.PrintInvoice.Title" Value="Printati factura comenzii : {orderid}" />
+<Resource Key="PP.PrintInvoice.Description" Value="Printeaza factura pentru comanda ta." />
+<Resource Key="PP.PrintInvoice.OrderID" Value="ID-ul comenzii" />
+<Resource Key="PP.PrintInvoice.Dated" Value="Datata" />
 <Resource Key="PP.PrintInvoice.Status" Value="Status" />
-<Resource Key="PP.PrintInvoice.CustomerInformation" Value="Customer Information" />
-<Resource Key="PP.PrintInvoice.PaymentDetails" Value="Payment Details" />
-<Resource Key="PP.PrintInvoice.PaymentMethod" Value="Payment Method" />
-<Resource Key="PP.PrintInvoice.TransactionID" Value="Transaction ID" />
-<Resource Key="PP.PrintInvoice.OrderID" Value="Order ID" />
-<Resource Key="PP.PrintInvoice.Code" Value="Code" />
-<Resource Key="PP.PrintInvoice.Product" Value="Product" />
-<Resource Key="PP.PrintInvoice.Price" Value="Price" />
-<Resource Key="PP.PrintInvoice.Quantity" Value="Quantity" />
+<Resource Key="PP.PrintInvoice.CustomerInformation" Value="Informatii clienti" />
+<Resource Key="PP.PrintInvoice.PaymentDetails" Value="Detalii plata" />
+<Resource Key="PP.PrintInvoice.PaymentMethod" Value="Metoda de plata" />
+<Resource Key="PP.PrintInvoice.TransactionID" Value="ID-ul tranzactiei" />
+<Resource Key="PP.PrintInvoice.OrderID" Value="ID-ul comenzii" />
+<Resource Key="PP.PrintInvoice.Code" Value="Cod" />
+<Resource Key="PP.PrintInvoice.Product" Value="Produs" />
+<Resource Key="PP.PrintInvoice.Price" Value="Pret" />
+<Resource Key="PP.PrintInvoice.Quantity" Value="Cantitate" />
 <Resource Key="PP.PrintInvoice.Total" Value="Total" />
-<Resource Key="PP.PrintInvoice.PromoApplied" Value="Promo Applied: {promo}" />
-<Resource Key="PP.PrintInvoice.TotalAmount" Value="Total Amount" />
-<Resource Key="PP.PrintInvoice.Discount" Value="Discount" />
-<Resource Key="PP.PrintInvoice.ShippingCharges" Value="Shipping" />
-<Resource Key="PP.PrintInvoice.FinalAmount" Value="Final Amount" />
-<Resource Key="PP.PrintInvoice.GuestOrder" Value="Guest Order" />
-<Resource Key="PP.PrintInvoice.NotAccessible" Value="Sorry! you can not check this order details." />
-<Resource Key="Dashboard.Dashboard" Value="Dashboard" />
-<Resource Key="Dashboard.Commons.RecordNotSpecifiedInCurrentLanguage" Value="This record is not specified in current language." />
-<Resource Key="Dashboard.Commons.ParentCategoryRecordNotSpecifiedInCurrentLanguage" Value="Parent Category not specified in the current language." />
-<Resource Key="Dashboard.Commons.CategoryRecordNotSpecifiedInCurrentLanguage" Value="This category name is not specified in the current language." />
-<Resource Key="Dashboard.Message.Success" Value="Success!" />
-<Resource Key="Dashboard.Message.Warning" Value="Warning!" />
-<Resource Key="Dashboard.Message.Error" Value="Error!" />
-<Resource Key="Dashboard.Message.Thanks" Value="Thanks" />
-<Resource Key="Dashboard.Message.GenericErrorMessage" Value="An error has occurred." />
-<Resource Key="Dashboard.Message.ConfirmDeleteWarning" Value="Are you sure you want to delete this record?" />
-<Resource Key="Dashboard.Message.ConfirmDelete" Value="Confirm" />
-<Resource Key="Dashboard.Message.CancelDelete" Value="Cancel" />
+<Resource Key="PP.PrintInvoice.PromoApplied" Value="Promotie aplicata: {promo}" />
+<Resource Key="PP.PrintInvoice.TotalAmount" Value="Valoare totala" />
+<Resource Key="PP.PrintInvoice.Discount" Value="Reducere" />
+<Resource Key="PP.PrintInvoice.ShippingCharges" Value="Transport" />
+<Resource Key="PP.PrintInvoice.FinalAmount" Value="Valoare finala" />
+<Resource Key="PP.PrintInvoice.GuestOrder" Value="Comanda client" />
+<Resource Key="PP.PrintInvoice.NotAccessible" Value="Ne pare rau!Nu puteti verifica detaliile acestei comenzi." />
+<Resource Key="Dashboard.Dashboard" Value="Panou de control" />
+<Resource Key="Dashboard.Commons.RecordNotSpecifiedInCurrentLanguage" Value="Aceasta inregistrare nu este valabila in limba curenta." />
+<Resource Key="Dashboard.Commons.ParentCategoryRecordNotSpecifiedInCurrentLanguage" Value="Categoria parinte nu este specificata in limba curenta." />
+<Resource Key="Dashboard.Commons.CategoryRecordNotSpecifiedInCurrentLanguage" Value="Numele categoriei nu este specificata in limba curenta." />
+<Resource Key="Dashboard.Message.Success" Value="Succes!" />
+<Resource Key="Dashboard.Message.Warning" Value="Avertisment!" />
+<Resource Key="Dashboard.Message.Error" Value="Eroare!" />
+<Resource Key="Dashboard.Message.Thanks" Value="Mulumim!" />
+<Resource Key="Dashboard.Message.GenericErrorMessage" Value="A aparut o eroare." />
+<Resource Key="Dashboard.Message.ConfirmDeleteWarning" Value="Esti sigur ca vrei sa stergi aceasta inregistrare?" />
+<Resource Key="Dashboard.Message.ConfirmDelete" Value="Confirma" />
+<Resource Key="Dashboard.Message.CancelDelete" Value="Anulare" />
 <Resource Key="Dashboard.Message.OK" Value="OK" />
-<Resource Key="Dashboard.Pagination.Previous" Value="Previous" />
-<Resource Key="Dashboard.Pagination.Next" Value="Next" />
-<Resource Key="Dashboard.Menu.Home" Value="Home" />
-<Resource Key="Dashboard.Menu.Dashboard" Value="Dashboard" />
-<Resource Key="Dashboard.Menu.Categories" Value="Categories" />
-<Resource Key="Dashboard.Menu.Products" Value="Products" />
-<Resource Key="Dashboard.Menu.Promos" Value="Promos" />
-<Resource Key="Dashboard.Menu.Orders" Value="Orders" />
-<Resource Key="Dashboard.Menu.Comments" Value="Comments" />
-<Resource Key="Dashboard.Menu.Users" Value="Users" />
-<Resource Key="Dashboard.Menu.Roles" Value="Roles" />
-<Resource Key="Dashboard.Menu.Languages" Value="Languages" />
-<Resource Key="Dashboard.Menu.Configurations" Value="Configurations" />
-<Resource Key="Dashboard.Menu.AllConfigurations" Value="All Configurations" />
-<Resource Key="Dashboard.Menu.LanguageConfigurations" Value="Language Configurations" />
-<Resource Key="Dashboard.Menu.NewsletterSubscribers" Value="Newsletter Subscribers" />
-<Resource Key="Dashboard.TopMenu.Profile" Value="Profile" />
-<Resource Key="Dashboard.TopMenu.LogOff" Value="Log off" />
-<Resource Key="Dashboard.Dashboard.Hello" Value="Hello {user}!" />
-<Resource Key="Dashboard.Dashboard.WelcomeToDashboard" Value="Welcome to {application} Dashboard. Below are a few demographics." />
-<Resource Key="Dashboard.Dashboard.LowStockAlert" Value="The remaining quantity of {product-link} is {product-quantity} which is less than the stock alert level of {stock-alert-level}." />
-<Resource Key="Dashboard.Dashboard.TotalProducts" Value="Total Products" />
-<Resource Key="Dashboard.Dashboard.TotalCategories" Value="Total Categories" />
-<Resource Key="Dashboard.Dashboard.TotalOrders" Value="Total Orders" />
-<Resource Key="Dashboard.Dashboard.TotalComments" Value="Total Comments" />
+<Resource Key="Dashboard.Pagination.Previous" Value="Anterior" />
+<Resource Key="Dashboard.Pagination.Next" Value="Urmatorul" />
+<Resource Key="Dashboard.Menu.Home" Value="Acasa" />
+<Resource Key="Dashboard.Menu.Dashboard" Value="Panou de control" />
+<Resource Key="Dashboard.Menu.Categories" Value="Categorii" />
+<Resource Key="Dashboard.Menu.Products" Value="Produse" />
+<Resource Key="Dashboard.Menu.Promos" Value="Promotii" />
+<Resource Key="Dashboard.Menu.Orders" Value="Comenzi" />
+<Resource Key="Dashboard.Menu.Comments" Value="Comentarii" />
+<Resource Key="Dashboard.Menu.Users" Value="Utilizatori" />
+<Resource Key="Dashboard.Menu.Roles" Value="Roluri" />
+<Resource Key="Dashboard.Menu.Languages" Value="Limba" />
+<Resource Key="Dashboard.Menu.Configurations" Value="Configurare" />
+<Resource Key="Dashboard.Menu.AllConfigurations" Value="Toate configurarile" />
+<Resource Key="Dashboard.Menu.LanguageConfigurations" Value="Configurare limba" />
+<Resource Key="Dashboard.Menu.NewsletterSubscribers" Value="Abonat la buletinul informativ" />
+<Resource Key="Dashboard.TopMenu.Profile" Value="Profil" />
+<Resource Key="Dashboard.TopMenu.LogOff" Value="Iesi din cont" />
+<Resource Key="Dashboard.Dashboard.Hello" Value="Buna! {user}!" />
+<Resource Key="Dashboard.Dashboard.WelcomeToDashboard" Value="Bine ai venit la {application} panoul de control. Mai jos sunt cateva demonstratii." />
+<Resource Key="Dashboard.Dashboard.LowStockAlert" Value="Cantitatea ramasa din {product-link} este {product-quantity} fiind  mai mica decat nivelul de alerta de stoc {stock-alert-level}." />
+<Resource Key="Dashboard.Dashboard.TotalProducts" Value="Totalul produselor" />
+<Resource Key="Dashboard.Dashboard.TotalCategories" Value="Totalul categoriilor" />
+<Resource Key="Dashboard.Dashboard.TotalOrders" Value="Totalul comenziilor" />
+<Resource Key="Dashboard.Dashboard.TotalComments" Value="Totalul comentariilor" />
 <Resource Key="Dashboard.Dashboard.NoOfUsers" Value="No. Of Users" />
 <Resource Key="Dashboard.Dashboard.NoOfRoles" Value="No. of Roles" />
-<Resource Key="Dashboard.Categories.Title" Value="Categories" />
-<Resource Key="Dashboard.Categories.Description" Value="Categories Listing" />
-<Resource Key="Dashboard.Categories.SearchPlaceholder" Value="Search by Category Name" />
-<Resource Key="Dashboard.Categories.SelectParentCategory" Value="Select Categories by Parent Category" />
-<Resource Key="Dashboard.Categories.Search" Value="Search" />
-<Resource Key="Dashboard.Categories.Reset" Value="Reset" />
-<Resource Key="Dashboard.Categories.CreateCategory" Value="Create Category" />
-<Resource Key="Dashboard.Categories.List.Name" Value="Name" />
-<Resource Key="Dashboard.Categories.List.ParentCategory" Value="Parent Category" />
-<Resource Key="Dashboard.Categories.List.Description" Value="Description" />
-<Resource Key="Dashboard.Categories.List.Products" Value="Products" />
-<Resource Key="Dashboard.Categories.List.Actions" Value="Actions" />
+<Resource Key="Dashboard.Categories.Title" Value="Categorii" />
+<Resource Key="Dashboard.Categories.Description" Value="Lista categoriilor" />
+<Resource Key="Dashboard.Categories.SearchPlaceholder" Value="Cauta dupa numele categoriei" />
+<Resource Key="Dashboard.Categories.SelectParentCategory" Value="Selecteaza categoria dupa categoria parinte" />
+<Resource Key="Dashboard.Categories.Search" Value="Cauta" />
+<Resource Key="Dashboard.Categories.Reset" Value="Reseteaza" />
+<Resource Key="Dashboard.Categories.CreateCategory" Value="Creaza categorie" />
+<Resource Key="Dashboard.Categories.List.Name" Value="Nume" />
+<Resource Key="Dashboard.Categories.List.ParentCategory" Value="Categoria parinte" />
+<Resource Key="Dashboard.Categories.List.Description" Value="Descriere" />
+<Resource Key="Dashboard.Categories.List.Products" Value="Produse" />
+<Resource Key="Dashboard.Categories.List.Actions" Value="Actiuni" />
 <Resource Key="Dashboard.Categories.List.FeaturedCategory" Value="Oferte" />
-<Resource Key="Dashboard.Categories.List.Edit" Value="Edit" />
-<Resource Key="Dashboard.Categories.List.Delete" Value="Delete" />
-<Resource Key="Dashboard.Categories.List.NoRecordFound" Value="No Categories found." />
-<Resource Key="Dashboard.Categories.EditCategoryTitle" Value="Edit Category" />
-<Resource Key="Dashboard.Categories.EditCategoryDescription" Value="Edit category." />
-<Resource Key="Dashboard.Categories.CreateCategoryTitle" Value="Create Category" />
-<Resource Key="Dashboard.Categories.CreateCategoryDescription" Value="Create new category." />
-<Resource Key="Dashboard.Categories.Action.Name" Value="Name" />
-<Resource Key="Dashboard.Categories.Action.NamePlaceholder" Value="Category Name" />
-<Resource Key="Dashboard.Categories.Action.Summary" Value="Summary" />
-<Resource Key="Dashboard.Categories.Action.SummaryPlaceholder" Value="Add category summary." />
-<Resource Key="Dashboard.Categories.Action.Description" Value="Description" />
-<Resource Key="Dashboard.Categories.Action.DescriptionPlaceholder" Value="Add category description." />
-<Resource Key="Dashboard.Categories.Action.ParentCategory" Value="Parent Category" />
-<Resource Key="Dashboard.Categories.Action.ParentCategoryNone" Value="None" />
+<Resource Key="Dashboard.Categories.List.Edit" Value="Editeaza" />
+<Resource Key="Dashboard.Categories.List.Delete" Value="Sterge" />
+<Resource Key="Dashboard.Categories.List.NoRecordFound" Value="Nici o categorie nu a fost gasita." />
+<Resource Key="Dashboard.Categories.EditCategoryTitle" Value="Editeaza categoria" />
+<Resource Key="Dashboard.Categories.EditCategoryDescription" Value="Editeaza categoria." />
+<Resource Key="Dashboard.Categories.CreateCategoryTitle" Value="Creaza o categorie" />
+<Resource Key="Dashboard.Categories.CreateCategoryDescription" Value="Creaza o noua categorie." />
+<Resource Key="Dashboard.Categories.Action.Name" Value="Nume" />
+<Resource Key="Dashboard.Categories.Action.NamePlaceholder" Value="Nume categorie" />
+<Resource Key="Dashboard.Categories.Action.Summary" Value="Scurta descriere" />
+<Resource Key="Dashboard.Categories.Action.SummaryPlaceholder" Value="Adaugati o scurta descriere categoriei." />
+<Resource Key="Dashboard.Categories.Action.Description" Value="Descriere" />
+<Resource Key="Dashboard.Categories.Action.DescriptionPlaceholder" Value="Adaugati descrierea categoriei." />
+<Resource Key="Dashboard.Categories.Action.ParentCategory" Value="Categoria parinte" />
+<Resource Key="Dashboard.Categories.Action.ParentCategoryNone" Value="Nici una" />
 <Resource Key="Dashboard.Categories.Action.URL" Value="URL" />
-<Resource Key="Dashboard.Categories.Action.SelectPicture" Value="Select Picture" />
+<Resource Key="Dashboard.Categories.Action.SelectPicture" Value="Selectaza o imagine" />
 <Resource Key="Dashboard.Categories.Action.Featured" Value="Oferte" />
-<Resource Key="Dashboard.Categories.Update" Value="Update" />
-<Resource Key="Dashboard.Categories.Delete" Value="Delete" />
-<Resource Key="Dashboard.Categories.Save" Value="Save" />
-<Resource Key="Dashboard.Categories.Cancel" Value="Cancel" />
-<Resource Key="Dashboard.Categories.Action.Validation.NameRequired" Value="Category Name is required." />
-<Resource Key="Dashboard.Categories.Action.Validation.NameMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Categories.Action.Validation.NameMaximumLength" Value="Maximum Length is {length}." />
-<Resource Key="Dashboard.Categories.Action.Validation.DescriptionMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Categories.Action.Validation.CategoryNotFound" Value="Category not found." />
-<Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategory" Value="Unable to update Category." />
-<Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategoryRecord" Value="Unable to update Category Record." />
-<Resource Key="Dashboard.Categories.Action.Validation.UnableToCreateCategory" Value="Unable to create Category." />
-<Resource Key="Dashboard.Categories.Action.Validation.UnableToDeleteCategory" Value="Unable to delete Category." />
-<Resource Key="Dashboard.Products.Title" Value="Products" />
-<Resource Key="Dashboard.Products.Description" Value="Products Listing" />
-<Resource Key="Dashboard.Products.SearchPlaceholder" Value="Search Products by Name" />
-<Resource Key="Dashboard.Products.SelectByCategory" Value="Select By Category" />
-<Resource Key="Dashboard.Products.Search" Value="Search" />
-<Resource Key="Dashboard.Products.Reset" Value="Reset" />
-<Resource Key="Dashboard.Products.CreateProduct" Value="Create" />
-<Resource Key="Dashboard.Products.ShowOnlyLowStock" Value="Only show low stocks" />
+<Resource Key="Dashboard.Categories.Update" Value="Actualizeaza" />
+<Resource Key="Dashboard.Categories.Delete" Value="Sterge" />
+<Resource Key="Dashboard.Categories.Save" Value="Salveaza" />
+<Resource Key="Dashboard.Categories.Cancel" Value="Anuleaza" />
+<Resource Key="Dashboard.Categories.Action.Validation.NameRequired" Value="Numele categoriei este obligatoriu." />
+<Resource Key="Dashboard.Categories.Action.Validation.NameMinimumLength" Value="Numarul minim de litere este {min}." />
+<Resource Key="Dashboard.Categories.Action.Validation.NameMaximumLength" Value="Numarul maxim de litere este {length}." />
+<Resource Key="Dashboard.Categories.Action.Validation.DescriptionMinimumLength" Value="Numarul minim de litere este  {min}." />
+<Resource Key="Dashboard.Categories.Action.Validation.CategoryNotFound" Value="Categoria nu a fost gasita." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategory" Value="Categoria nu poate fi actualizata." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategoryRecord" Value="Inregistrarea categoriei nu poate fi actualizata." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToCreateCategory" Value="Categoria nu poate fi creata." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToDeleteCategory" Value="Categoria nu poate fi stearsa." />
+<Resource Key="Dashboard.Products.Title" Value="Produse" />
+<Resource Key="Dashboard.Products.Description" Value="Lista produselor" />
+<Resource Key="Dashboard.Products.SearchPlaceholder" Value="Cauta produse dupa nume" />
+<Resource Key="Dashboard.Products.SelectByCategory" Value="Selectea dupa categorie" />
+<Resource Key="Dashboard.Products.Search" Value="Cauta" />
+<Resource Key="Dashboard.Products.Reset" Value="Reseteaza" />
+<Resource Key="Dashboard.Products.CreateProduct" Value="Creaza" />
+<Resource Key="Dashboard.Products.ShowOnlyLowStock" Value="Arata doar stocurile scazute" />
 <Resource Key="Dashboard.Products.List.Name" Value="Nume" />
 <Resource Key="Dashboard.Products.List.Category" Value="Categorie" />
 <Resource Key="Dashboard.Products.List.Summary" Value="Scurta descriere" />
 <Resource Key="Dashboard.Products.List.Price" Value="Pret" />
 <Resource Key="Dashboard.Products.List.StockQuantity" Value="Cantitate" />
-<Resource Key="Dashboard.Products.List.Actions" Value="Actions" />
+<Resource Key="Dashboard.Products.List.Actions" Value="Actiuni" />
 <Resource Key="Dashboard.Products.List.FeaturedProduct" Value="Oferte" />
-<Resource Key="Dashboard.Products.Edit" Value="Edit" />
-<Resource Key="Dashboard.Products.Delete" Value="Delete" />
-<Resource Key="Dashboard.Products.List.NoRecordFound" Value="No Products found." />
-<Resource Key="Dashboard.Products.EditProductTitle" Value="Edit Product" />
-<Resource Key="Dashboard.Products.EditProductDescription" Value="Edit Product." />
-<Resource Key="Dashboard.Products.CreateProductTitle" Value="Create Product" />
-<Resource Key="Dashboard.Products.CreateProductDescription" Value="Create new product." />
-<Resource Key="Dashboard.Products.Action.Name" Value="Name" />
-<Resource Key="Dashboard.Products.Action.NamePlaceholder" Value="Product Name" />
-<Resource Key="Dashboard.Products.Action.Summary" Value="Summary" />
-<Resource Key="Dashboard.Products.Action.SummaryPlaceholder" Value="Add Product Summary" />
-<Resource Key="Dashboard.Products.Action.Description" Value="Description" />
-<Resource Key="Dashboard.Products.Action.DescriptionPlaceholder" Value="Add Product Description" />
-<Resource Key="Dashboard.Products.Action.ProductSpecifications" Value="Product Specifications" />
-<Resource Key="Dashboard.Products.Action.SpecificationTitle" Value="Specification Title" />
-<Resource Key="Dashboard.Products.Action.SpecificationValue" Value="Specification Value" />
-<Resource Key="Dashboard.Products.Action.AddSpecification" Value="Add Specification" />
-<Resource Key="Dashboard.Products.Action.SpecificationAction" Value="Actions" />
-<Resource Key="Dashboard.Products.Action.SpecificationDelete" Value="Delete" />
-<Resource Key="Dashboard.Products.Action.NoSpecifications" Value="No Specifications." />
-<Resource Key="Dashboard.Products.Action.Category" Value="Category" />
-<Resource Key="Dashboard.Products.Action.Price" Value="Price" />
-<Resource Key="Dashboard.Products.Action.PricePlaceholder" Value="Product Price" />
-<Resource Key="Dashboard.Products.Action.SelectPictures" Value="Select Pictures" />
-<Resource Key="Dashboard.Products.Action.SetThumbnailImage" Value="Set as Thumbnail Image" />
-<Resource Key="Dashboard.Products.Action.RemovePicture" Value="Remove Picture" />
+<Resource Key="Dashboard.Products.Edit" Value="Editeza" />
+<Resource Key="Dashboard.Products.Delete" Value="Sterge" />
+<Resource Key="Dashboard.Products.List.NoRecordFound" Value="Nu a fost gasit nici un produs" />
+<Resource Key="Dashboard.Products.EditProductTitle" Value="Editeaza produsul" />
+<Resource Key="Dashboard.Products.EditProductDescription" Value="Editeza produsul." />
+<Resource Key="Dashboard.Products.CreateProductTitle" Value="Creaza Produs" />
+<Resource Key="Dashboard.Products.CreateProductDescription" Value="Creaza un produs nou." />
+<Resource Key="Dashboard.Products.Action.Name" Value="Nume" />
+<Resource Key="Dashboard.Products.Action.NamePlaceholder" Value="Nume produs" />
+<Resource Key="Dashboard.Products.Action.Summary" Value="Scurta descriere" />
+<Resource Key="Dashboard.Products.Action.SummaryPlaceholder" Value="Adauga o scurta descriere" />
+<Resource Key="Dashboard.Products.Action.Description" Value="Descriere" />
+<Resource Key="Dashboard.Products.Action.DescriptionPlaceholder" Value="Adauga o descriere produsului" />
+<Resource Key="Dashboard.Products.Action.ProductSpecifications" Value="Specificatiile produsului" />
+<Resource Key="Dashboard.Products.Action.SpecificationTitle" Value="Specificatiile titlului" />
+<Resource Key="Dashboard.Products.Action.SpecificationValue" Value="Specificatiile valorii" />
+<Resource Key="Dashboard.Products.Action.AddSpecification" Value="Adauga specificatii" />
+<Resource Key="Dashboard.Products.Action.SpecificationAction" Value="Actiuni" />
+<Resource Key="Dashboard.Products.Action.SpecificationDelete" Value="Sterge" />
+<Resource Key="Dashboard.Products.Action.NoSpecifications" Value="Nu exista specificatii." />
+<Resource Key="Dashboard.Products.Action.Category" Value="Categorie" />
+<Resource Key="Dashboard.Products.Action.Price" Value="Pret" />
+<Resource Key="Dashboard.Products.Action.PricePlaceholder" Value="Pretul produsului" />
+<Resource Key="Dashboard.Products.Action.SelectPictures" Value="Selecteaza o imagine" />
+<Resource Key="Dashboard.Products.Action.SetThumbnailImage" Value="Setati ca o imagine in miniatura />
+<Resource Key="Dashboard.Products.Action.RemovePicture" Value="Elimina imaginea" />
 <Resource Key="Dashboard.Products.Action.FeaturedProduct" Value="Oferta" />
-<Resource Key="Dashboard.Products.Update" Value="Update" />
-<Resource Key="Dashboard.Products.Delete" Value="Delete" />
-<Resource Key="Dashboard.Products.Save" Value="Save" />
-<Resource Key="Dashboard.Products.Cancel" Value="Cancel" />
-<Resource Key="Dashboard.Products.Action.Validation.NameRequired" Value="Product Name is required." />
-<Resource Key="Dashboard.Products.Action.Validation.NameMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Products.Action.Validation.NameMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.Products.Action.Validation.CategoryRequired" Value="Select a Product Category." />
-<Resource Key="Dashboard.Products.Action.Validation.SummaryRequired" Value="Product Summary is required." />
-<Resource Key="Dashboard.Products.Action.Validation.SummaryMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Products.Action.Validation.SummaryMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.Products.Action.Validation.DescriptionRequired" Value="Description is required." />
-<Resource Key="Dashboard.Products.Action.Validation.DescriptionMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Products.Action.Validation.PriceRequired" Value="Price is required." />
-<Resource Key="Dashboard.Products.Action.Validation.PriceRange" Value="Price must be between {min} to {max}." />
-<Resource Key="Dashboard.Products.Action.Validation.ProductPicturesRequired" Value="Please upload atleast one product picture." />
-<Resource Key="Dashboard.Products.Action.Validation.ProductNotFound" Value="Product not Found." />
-<Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProduct" Value="Unable to update Product." />
-<Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProductRecord" Value="Unable to update Product Record." />
-<Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProduct" Value="Unable to create Product." />
-<Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProductRecord" Value="Unable to create Product Record." />
-<Resource Key="Dashboard.Products.Action.Validation.UnableToDeleteProduct" Value="Unable to delete Product." />
-<Resource Key="Dashboard.Promos.Title" Value="Promos" />
-<Resource Key="Dashboard.Promos.Description" Value="Promos Listing Page." />
-<Resource Key="Dashboard.Promos.SearchPlaceholder" Value="Search Promo" />
-<Resource Key="Dashboard.Promos.Search" Value="Search" />
-<Resource Key="Dashboard.Promos.Reset" Value="Reset" />
-<Resource Key="Dashboard.Promos.CreatePromo" Value="Create Promo" />
-<Resource Key="Dashboard.Promos.List.Name" Value="Name" />
-<Resource Key="Dashboard.Promos.List.Code" Value="Promo Code" />
-<Resource Key="Dashboard.Promos.List.PromoType" Value="Promo Type" />
-<Resource Key="Dashboard.Promos.List.Value" Value="Value" />
-<Resource Key="Dashboard.Promos.List.ValidTill" Value="Valid Till" />
-<Resource Key="Dashboard.Promos.List.Actions" Value="Actions" />
-<Resource Key="Dashboard.Promos.List.NoRecordFound" Value="No promos found." />
-<Resource Key="Dashboard.Promos.PromoTypes" Value="Promo Types" />
-<Resource Key="Dashboard.Promos.PromoTypes.Percentage" Value="Percentage" />
-<Resource Key="Dashboard.Promos.PromoTypes.Amount" Value="Amount" />
-<Resource Key="Dashboard.Promos.Edit" Value="Edit" />
-<Resource Key="Dashboard.Promos.Delete" Value="Delete" />
-<Resource Key="Dashboard.Promos.EditPromoTitle" Value="Edit Promo" />
-<Resource Key="Dashboard.Promos.EditPromoDescription" Value="Edit Promo." />
-<Resource Key="Dashboard.Promos.CreatePromoTitle" Value="Create Promo" />
-<Resource Key="Dashboard.Promos.CreatePromoDescription" Value="Create new promo." />
-<Resource Key="Dashboard.Promos.Action.Name" Value="Name" />
-<Resource Key="Dashboard.Promos.Action.NamePlaceholder" Value="Add Promo Name" />
-<Resource Key="Dashboard.Promos.Action.Description" Value="Description" />
-<Resource Key="Dashboard.Promos.Action.DescriptionPlaceholder" Value="Add description about promo." />
-<Resource Key="Dashboard.Promos.Action.Code" Value="Code" />
-<Resource Key="Dashboard.Promos.Action.CodePlaceholder" Value="Add Promo Code" />
-<Resource Key="Dashboard.Promos.Action.PromoType" Value="Promo Type" />
+<Resource Key="Dashboard.Products.Update" Value="Actualizeaza" />
+<Resource Key="Dashboard.Products.Delete" Value="Sterge" />
+<Resource Key="Dashboard.Products.Save" Value="Salveaza" />
+<Resource Key="Dashboard.Products.Cancel" Value="Anuleaza" />
+<Resource Key="Dashboard.Products.Action.Validation.NameRequired" Value="Numele produsului este obligatoriu." />
+<Resource Key="Dashboard.Products.Action.Validation.NameMinimumLength" Value="Numarul minim de litere este de {min}." />
+<Resource Key="Dashboard.Products.Action.Validation.NameMaximumLength" Value="Numarul maxim de litere este de {max}." />
+<Resource Key="Dashboard.Products.Action.Validation.CategoryRequired" Value="Selectati o categorie de produse." />
+<Resource Key="Dashboard.Products.Action.Validation.SummaryRequired" Value="O scurta descriere a produsului este obligatorie." />
+<Resource Key="Dashboard.Products.Action.Validation.SummaryMinimumLength" Value="Numarul minim de litere este de {min}." />
+<Resource Key="Dashboard.Products.Action.Validation.SummaryMaximumLength" Value="Numarul maxim de litere este de {max}." />
+<Resource Key="Dashboard.Products.Action.Validation.DescriptionRequired" Value="Descrierea este obligatorie." />
+<Resource Key="Dashboard.Products.Action.Validation.DescriptionMinimumLength" Value="Numarul minim de litere este de {min}." />
+<Resource Key="Dashboard.Products.Action.Validation.PriceRequired" Value="Pretul este obligatoriu." />
+<Resource Key="Dashboard.Products.Action.Validation.PriceRange" Value="Pretul trebuie sa fie de la {min} la {max}." />
+<Resource Key="Dashboard.Products.Action.Validation.ProductPicturesRequired" Value="Te rugam incarca cel putin o poza cu produsul." />
+<Resource Key="Dashboard.Products.Action.Validation.ProductNotFound" Value="Produsul nu a fost gasit." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProduct" Value="Produsul nu poate fi actulizat." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProductRecord" Value="Inregistrarea produsului nu poate fi actualizata." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProduct" Value="Produsul nu poate fi creat." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProductRecord" Value="Inregistrarea produsului nu poate fi creata." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToDeleteProduct" Value="Produsul nu poate fi sters." />
+<Resource Key="Dashboard.Promos.Title" Value="Promotii" />
+<Resource Key="Dashboard.Promos.Description" Value="Pagina cu lista de promotii." />
+<Resource Key="Dashboard.Promos.SearchPlaceholder" Value="Cauta o promotie" />
+<Resource Key="Dashboard.Promos.Search" Value="Cauta" />
+<Resource Key="Dashboard.Promos.Reset" Value="Reseteaza" />
+<Resource Key="Dashboard.Promos.CreatePromo" Value="Creaza promotie" />
+<Resource Key="Dashboard.Promos.List.Name" Value="Nume" />
+<Resource Key="Dashboard.Promos.List.Code" Value="Cod promotie" />
+<Resource Key="Dashboard.Promos.List.PromoType" Value="Tipul promotiei" />
+<Resource Key="Dashboard.Promos.List.Value" Value="Valoarea" />
+<Resource Key="Dashboard.Promos.List.ValidTill" Value="Valabil pana la" />
+<Resource Key="Dashboard.Promos.List.Actions" Value="Actiuni" />
+<Resource Key="Dashboard.Promos.List.NoRecordFound" Value="Nici o promotie nu a fost gasita." />
+<Resource Key="Dashboard.Promos.PromoTypes" Value="Tipul promotiei" />
+<Resource Key="Dashboard.Promos.PromoTypes.Percentage" Value="Procentajul" />
+<Resource Key="Dashboard.Promos.PromoTypes.Amount" Value="Cantitate" />
+<Resource Key="Dashboard.Promos.Edit" Value="Editeaza" />
+<Resource Key="Dashboard.Promos.Delete" Value="Sterge" />
+<Resource Key="Dashboard.Promos.EditPromoTitle" Value="Editeaza promotia" />
+<Resource Key="Dashboard.Promos.EditPromoDescription" Value="Editeaza promotia." />
+<Resource Key="Dashboard.Promos.CreatePromoTitle" Value="Creaza promotia" />
+<Resource Key="Dashboard.Promos.CreatePromoDescription" Value="Creaza o noua promotie." />
+<Resource Key="Dashboard.Promos.Action.Name" Value="Nume" />
+<Resource Key="Dashboard.Promos.Action.NamePlaceholder" Value="Adauga numele promotiei" />
+<Resource Key="Dashboard.Promos.Action.Description" Value="Descriere" />
+<Resource Key="Dashboard.Promos.Action.DescriptionPlaceholder" Value="Adauga o descriere despre promotie." />
+<Resource Key="Dashboard.Promos.Action.Code" Value="Codul" />
+<Resource Key="Dashboard.Promos.Action.CodePlaceholder" Value="Adauga codul promotiei" />
+<Resource Key="Dashboard.Promos.Action.PromoType" Value="Tipul promotiei" />
 <Resource Key="Dashboard.Promos.Action.AmountPromoDescription" Value="Amount Promo Type will give discount of specified value as amount from total amount of order." />
 <Resource Key="Dashboard.Promos.Action.PercentagePromoDescription" Value="Percentage Promo Type will give discount of specified value in percentage of total amount of order." />
-<Resource Key="Dashboard.Promos.Action.Value" Value="Value" />
-<Resource Key="Dashboard.Promos.Action.ValidTill" Value="Valid Till" />
-<Resource Key="Dashboard.Promos.Update" Value="Update" />
-<Resource Key="Dashboard.Promos.Delete" Value="Delete" />
-<Resource Key="Dashboard.Promos.Save" Value="Save" />
-<Resource Key="Dashboard.Promos.Cancel" Value="Cancel" />
-<Resource Key="Dashboard.Promos.Action.Validation.NameRequired" Value="Name is required." />
-<Resource Key="Dashboard.Promos.Action.Validation.NameMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Promos.Action.Validation.NameMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.Promos.Action.Validation.PromoTypeRequired" Value="Please select Promo Type." />
-<Resource Key="Dashboard.Promos.Action.Validation.DescriptionMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Promos.Action.Validation.CodeRequired" Value="Promo Code is required." />
-<Resource Key="Dashboard.Promos.Action.Validation.CodeMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Promos.Action.Validation.CodeMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.Promos.Action.Validation.ValueRequired" Value="Promo Value is required." />
-<Resource Key="Dashboard.Promos.Action.Validation.ValueRange" Value="Value must be between {min} to {max}." />
-<Resource Key="Dashboard.Promos.Action.Validation.PromoNotFound" Value="Promo not found." />
-<Resource Key="Dashboard.Promos.Action.Validation.UnableToUpdatePromo" Value="Unable to update Promo." />
-<Resource Key="Dashboard.Promos.Action.Validation.UnableToCreatePromo" Value="Unable to create Promo." />
-<Resource Key="Dashboard.Promos.Action.Validation.UnableToDeletePromo" Value="Unable to delete Promo." />
-<Resource Key="Dashboard.Orders.Title" Value="Orders" />
-<Resource Key="Dashboard.Orders.Description" Value="Orders Listing" />
-<Resource Key="Dashboard.Orders.SearchByUserIDPlaceholder" Value="Search by User ID" />
-<Resource Key="Dashboard.Orders.SearchByOrderIDPlaceholder" Value="Search by Order ID" />
-<Resource Key="Dashboard.Orders.SearchByOrderStatus" Value="Search by Order Status" />
-<Resource Key="Dashboard.Orders.OrderStatus" Value="Order Status" />
-<Resource Key="Dashboard.Orders.OrderStatus.Placed" Value="Placed" />
-<Resource Key="Dashboard.Orders.OrderStatus.Processing" Value="Processing" />
-<Resource Key="Dashboard.Orders.OrderStatus.Delivered" Value="Delivered" />
-<Resource Key="Dashboard.Orders.OrderStatus.Failed" Value="Failed" />
-<Resource Key="Dashboard.Orders.OrderStatus.Cancelled" Value="Cancelled" />
-<Resource Key="Dashboard.Orders.OrderStatus.OnHold" Value="OnHold" />
-<Resource Key="Dashboard.Orders.OrderStatus.WaitingForPayment" Value="WaitingForPayment" />
-<Resource Key="Dashboard.Orders.OrderStatus.Refunded" Value="Refunded" />
-<Resource Key="Dashboard.Orders.Search" Value="Search" />
-<Resource Key="Dashboard.Orders.Reset" Value="Reset" />
-<Resource Key="Dashboard.Orders.List.OrderID" Value="Order ID" />
-<Resource Key="Dashboard.Orders.List.PlacedOn" Value="Placed On Date" />
-<Resource Key="Dashboard.Orders.List.OrderAmount" Value="Order Amount" />
-<Resource Key="Dashboard.Orders.List.PaymentMethod" Value="Payment Method" />
+<Resource Key="Dashboard.Promos.Action.Value" Value="Valoare" />
+<Resource Key="Dashboard.Promos.Action.ValidTill" Value="Valid pana la" />
+<Resource Key="Dashboard.Promos.Update" Value="Actualizeaza" />
+<Resource Key="Dashboard.Promos.Delete" Value="Sterge" />
+<Resource Key="Dashboard.Promos.Save" Value="Salveaza" />
+<Resource Key="Dashboard.Promos.Cancel" Value="Anuleaza" />
+<Resource Key="Dashboard.Promos.Action.Validation.NameRequired" Value="Numele este obligatoriu." />
+<Resource Key="Dashboard.Promos.Action.Validation.NameMinimumLength" Value="Numarul minim de litere este de {min}." />
+<Resource Key="Dashboard.Promos.Action.Validation.NameMaximumLength" Value="Numarul maxim de litere este de {max}." />
+<Resource Key="Dashboard.Promos.Action.Validation.PromoTypeRequired" Value="Te rugam selecteaza tipul promotiei." />
+<Resource Key="Dashboard.Promos.Action.Validation.DescriptionMinimumLength" Value="Numarul minim de litere este {min}." />
+<Resource Key="Dashboard.Promos.Action.Validation.CodeRequired" Value="Codul promotional este obligatoriu." />
+<Resource Key="Dashboard.Promos.Action.Validation.CodeMinimumLength" Value="Numarul minim de litere este de {min}." />
+<Resource Key="Dashboard.Promos.Action.Validation.CodeMaximumLength" Value="Numarul maxim de litere este de {max}." />
+<Resource Key="Dashboard.Promos.Action.Validation.ValueRequired" Value="Valoare promotiei este obligatorie." />
+<Resource Key="Dashboard.Promos.Action.Validation.ValueRange" Value="Valoare trebuie sa fie intre {min} si {max}." />
+<Resource Key="Dashboard.Promos.Action.Validation.PromoNotFound" Value="Promotia nu a fost gasita." />
+<Resource Key="Dashboard.Promos.Action.Validation.UnableToUpdatePromo" Value="Promotia nu poate fi actualizata." />
+<Resource Key="Dashboard.Promos.Action.Validation.UnableToCreatePromo" Value="Promotia nu poate fi creata." />
+<Resource Key="Dashboard.Promos.Action.Validation.UnableToDeletePromo" Value="Promotia nu poate fi stearsa." />
+<Resource Key="Dashboard.Orders.Title" Value="Comenzi" />
+<Resource Key="Dashboard.Orders.Description" Value="Lista comenziilor" />
+<Resource Key="Dashboard.Orders.SearchByUserIDPlaceholder" Value="Cauta dupa ID-ul utilizatorului" />
+<Resource Key="Dashboard.Orders.SearchByOrderIDPlaceholder" Value="Cauta dupa ID-ul comenzii" />
+<Resource Key="Dashboard.Orders.SearchByOrderStatus" Value="Cauta dupa statusul comenzii" />
+<Resource Key="Dashboard.Orders.OrderStatus" Value="Statusul comenzii" />
+<Resource Key="Dashboard.Orders.OrderStatus.Placed" Value="Plasata" />
+<Resource Key="Dashboard.Orders.OrderStatus.Processing" Value="In procesare" />
+<Resource Key="Dashboard.Orders.OrderStatus.Delivered" Value="Livrata" />
+<Resource Key="Dashboard.Orders.OrderStatus.Failed" Value="Eroare" />
+<Resource Key="Dashboard.Orders.OrderStatus.Cancelled" Value="Anulata" />
+<Resource Key="Dashboard.Orders.OrderStatus.OnHold" Value="In asteptare" />
+<Resource Key="Dashboard.Orders.OrderStatus.WaitingForPayment" Value="In asteptarea platii" />
+<Resource Key="Dashboard.Orders.OrderStatus.Refunded" Value="Returnata" />
+<Resource Key="Dashboard.Orders.Search" Value="Cauta" />
+<Resource Key="Dashboard.Orders.Reset" Value="Reseteaza" />
+<Resource Key="Dashboard.Orders.List.OrderID" Value="ID comanda" />
+<Resource Key="Dashboard.Orders.List.PlacedOn" Value="Plasata la data" />
+<Resource Key="Dashboard.Orders.List.OrderAmount" Value="Cantitatea comenzii" />
+<Resource Key="Dashboard.Orders.List.PaymentMethod" Value="Metoda de plata" />
 <Resource Key="Dashboard.Orders.List.Status" Value="Status" />
-<Resource Key="Dashboard.Orders.List.Actions" Value="Actions" />
-<Resource Key="Dashboard.Orders.List.UpdatedOn" Value="Updated On" />
-<Resource Key="Dashboard.Orders.List.Details" Value="Details" />
-<Resource Key="Dashboard.Orders.List.Track" Value="Track" />
-<Resource Key="Dashboard.Orders.List.Invoice" Value="Invoice" />
-<Resource Key="Dashboard.Orders.NoOrdersFound" Value="No Orders found." />
-<Resource Key="Dashboard.OrderDetails.Title" Value="Orders" />
-<Resource Key="Dashboard.OrderDetails.Description" Value="Orders Listing" />
-<Resource Key="Dashboard.OrderDetails.PrintInvoice" Value="Print Invoice" />
-<Resource Key="Dashboard.OrderDetails.OrderStatus" Value="Order Status" />
-<Resource Key="Dashboard.OrderDetails.PaymentMethod" Value="Payment Method" />
-<Resource Key="Dashboard.OrderDetails.PaymentMethods.CreditCard" Value="Credit Card" />
+<Resource Key="Dashboard.Orders.List.Actions" Value="Actiuni" />
+<Resource Key="Dashboard.Orders.List.UpdatedOn" Value="Actualizat la" />
+<Resource Key="Dashboard.Orders.List.Details" Value="Detalii" />
+<Resource Key="Dashboard.Orders.List.Track" Value="Urmareste" />
+<Resource Key="Dashboard.Orders.List.Invoice" Value="Factura fiscala" />
+<Resource Key="Dashboard.Orders.NoOrdersFound" Value="Nici o comanda nu a fost gasita." />
+<Resource Key="Dashboard.OrderDetails.Title" Value="Comenzi" />
+<Resource Key="Dashboard.OrderDetails.Description" Value="Lista comenzilor" />
+<Resource Key="Dashboard.OrderDetails.PrintInvoice" Value="Printeaza factura fiscala" />
+<Resource Key="Dashboard.OrderDetails.OrderStatus" Value="Status comanda" />
+<Resource Key="Dashboard.OrderDetails.PaymentMethod" Value="Metoda de plata" />
+<Resource Key="Dashboard.OrderDetails.PaymentMethods.CreditCard" Value="Card de credit" />
 <Resource Key="Dashboard.OrderDetails.PaymentMethods.PayPal" Value="PayPal" />
-<Resource Key="Dashboard.OrderDetails.PaymentMethods.CashOnDelivery" Value="Cash On Delivery" />
-<Resource Key="Dashboard.OrderDetails.OrderTransactionID" Value="Transaction ID" />
+<Resource Key="Dashboard.OrderDetails.PaymentMethods.CashOnDelivery" Value="Plateste cash la livrare" />
+<Resource Key="Dashboard.OrderDetails.OrderTransactionID" Value="ID-ul tranzactiei" />
 <Resource Key="Dashboard.OrderDetails.OrderProcessor.AuthorizeNet" Value="Authorize.Net" />
 <Resource Key="Dashboard.OrderDetails.OrderProcessor.PayPal" Value="PayPal" />
-<Resource Key="Dashboard.OrderDetails.PlacedOn" Value="Placed On Date" />
-<Resource Key="Dashboard.OrderDetails.UpdatedOn" Value="Updated On" />
-<Resource Key="Dashboard.OrderDetails.OrderID" Value="Order ID" />
-<Resource Key="Dashboard.OrderDetails.OrderUniqueCode" Value="Order Unique Code" />
-<Resource Key="Dashboard.OrderDetails.OrderDetails" Value="Order Details" />
-<Resource Key="Dashboard.OrderDetails.Name" Value="Name" />
-<Resource Key="Dashboard.OrderDetails.Price" Value="Price" />
-<Resource Key="Dashboard.OrderDetails.Quantity" Value="Quantity" />
+<Resource Key="Dashboard.OrderDetails.PlacedOn" Value="Plasata la data" />
+<Resource Key="Dashboard.OrderDetails.UpdatedOn" Value="Actualizat la" />
+<Resource Key="Dashboard.OrderDetails.OrderID" Value="ID-ul comenzii" />
+<Resource Key="Dashboard.OrderDetails.OrderUniqueCode" Value="Codul unic al comenzii" />
+<Resource Key="Dashboard.OrderDetails.OrderDetails" Value="Detaliile comenzii" />
+<Resource Key="Dashboard.OrderDetails.Name" Value="Nume" />
+<Resource Key="Dashboard.OrderDetails.Price" Value="Pret" />
+<Resource Key="Dashboard.OrderDetails.Quantity" Value="Cantitate" />
 <Resource Key="Dashboard.OrderDetails.Total" Value="Total" />
-<Resource Key="Dashboard.OrderDetails.TotalAmount" Value="Total Amount" />
-<Resource Key="Dashboard.OrderDetails.Discount" Value="Discount" />
-<Resource Key="Dashboard.OrderDetails.PromoApplied" Value="Promo Applied: {promo}" />
-<Resource Key="Dashboard.OrderDetails.DeliveryCharges" Value="Delivery Charges" />
-<Resource Key="Dashboard.OrderDetails.CustomerDetails" Value="Customer Details" />
-<Resource Key="Dashboard.OrderDetails.FullName" Value="Full Name" />
+<Resource Key="Dashboard.OrderDetails.TotalAmount" Value="Suma totala" />
+<Resource Key="Dashboard.OrderDetails.Discount" Value="Reducerea" />
+<Resource Key="Dashboard.OrderDetails.PromoApplied" Value="Promotia aplicata: {promo}" />
+<Resource Key="Dashboard.OrderDetails.DeliveryCharges" Value="Taxe de livrare" />
+<Resource Key="Dashboard.OrderDetails.CustomerDetails" Value="Detalii client" />
+<Resource Key="Dashboard.OrderDetails.FullName" Value="Nume complet" />
 <Resource Key="Dashboard.OrderDetails.Email" Value="Email" />
-<Resource Key="Dashboard.OrderDetails.PhoneNumber" Value="Phone Number" />
-<Resource Key="Dashboard.OrderDetails.ShippingDetails" Value="Shipping Details" />
-<Resource Key="Dashboard.OrderDetails.Country" Value="Country" />
-<Resource Key="Dashboard.OrderDetails.City" Value="City" />
-<Resource Key="Dashboard.OrderDetails.Address" Value="Address" />
-<Resource Key="Dashboard.OrderDetails.ZipCode" Value="Zip Code" />
-<Resource Key="Dashboard.OrderDetails.OrderHistory" Value="Order History" />
-<Resource Key="Dashboard.OrderDetails.Note" Value="Note" />
-<Resource Key="Dashboard.OrderDetails.UpdateStatus" Value="Update Status" />
-<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteRequired" Value="Note is required." />
-<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.UnableToUpdateOrderStatus" Value="Invalid Data. Unable to update order status." />
-<Resource Key="Dashboard.OrderDetails.GuestOrder" Value="Guest Order" />
-<Resource Key="Dashboard.OrderDetails.SeeAllOrdersFromCustomer" Value="See all orders from this customer." />
-<Resource Key="Dashboard.Comments.Title" Value="Comments" />
-<Resource Key="Dashboard.Comments.Description" Value="Comments listing page." />
-<Resource Key="Dashboard.Comments.SearchPlaceholder" Value="Search in Comments" />
-<Resource Key="Dashboard.Comments.Search" Value="Search" />
-<Resource Key="Dashboard.Comments.Reset" Value="Reset" />
+<Resource Key="Dashboard.OrderDetails.PhoneNumber" Value="Numar de telefon" />
+<Resource Key="Dashboard.OrderDetails.ShippingDetails" Value="Detalii de livrare" />
+<Resource Key="Dashboard.OrderDetails.Country" Value="Tara" />
+<Resource Key="Dashboard.OrderDetails.City" Value="Orasul" />
+<Resource Key="Dashboard.OrderDetails.Address" Value="Adresa" />
+<Resource Key="Dashboard.OrderDetails.ZipCode" Value="Codul postal" />
+<Resource Key="Dashboard.OrderDetails.OrderHistory" Value="Istoric comanda" />
+<Resource Key="Dashboard.OrderDetails.Note" Value="Nota" />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus" Value="Actualizeaza status" />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteRequired" Value="Nota este obligatorie." />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMinimumLength" Value="Numarul minim de litere este {min}." />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMaximumLength" Value="Numarul minim de litere este{max}." />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.UnableToUpdateOrderStatus" Value=" Date invalide. Statusul comenzii nu poate fi actualizat." />
+<Resource Key="Dashboard.OrderDetails.GuestOrder" Value="Comanda client" />
+<Resource Key="Dashboard.OrderDetails.SeeAllOrdersFromCustomer" Value="Vezi toate comenziile acestui client." />
+<Resource Key="Dashboard.Comments.Title" Value="Comentarii" />
+<Resource Key="Dashboard.Comments.Description" Value="Pagina cu lista comentariilor." />
+<Resource Key="Dashboard.Comments.SearchPlaceholder" Value="Cauta in comentarii" />
+<Resource Key="Dashboard.Comments.Search" Value="Cauta" />
+<Resource Key="Dashboard.Comments.Reset" Value="Reseteaza" />
 <Resource Key="Dashboard.Comments.CommentUserName" Value="{user}" />
 <Resource Key="Dashboard.Comments.CommentTimestamp" Value="{datetime}" />
-<Resource Key="Dashboard.Comments.DeleteComment" Value="Delete Comment" />
-<Resource Key="Dashboard.Comments.Action.Validation.NotAuthorizedToDeleteComment" Value="You are not authorzed to delete this comment." />
-<Resource Key="Dashboard.Comments.Action.Validation.UnableToDeleteComment" Value="Unable to delete comment." />
-<Resource Key="Dashboard.Comments.List.NoRecordFound" Value="No comments found." />
-<Resource Key="Dashboard.Users.Title" Value="Users" />
+<Resource Key="Dashboard.Comments.DeleteComment" Value="Sterge comentariul" />
+<Resource Key="Dashboard.Comments.Action.Validation.NotAuthorizedToDeleteComment" Value="Nu esti autorizat sa stergi acest comentariu." />
+<Resource Key="Dashboard.Comments.Action.Validation.UnableToDeleteComment" Value="Acest comentariu nu poate fi sters." />
+<Resource Key="Dashboard.Comments.List.NoRecordFound" Value="Nu a fost gasit nici un comentariu." />
+<Resource Key="Dashboard.Users.Title" Value="Utilizatorii" />
 <Resource Key="Dashboard.Users.Description" Value="Users listing page." />
 <Resource Key="Dashboard.Users.SearchPlaceholder" Value="Search by Username or Email" />
 <Resource Key="Dashboard.Users.SelectByRole" Value="Select by Role" />

@@ -1597,6 +1597,10 @@ ol {
   Footer
 -----------------------*/
 
+small.text-muted {
+	display: none !important;
+}
+
 .footer-section {
 	background: #191919;
 	padding-top: 75px;

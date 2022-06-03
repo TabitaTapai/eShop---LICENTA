@@ -28,7 +28,7 @@ namespace eShop.Web.Controllers
             return View(new PageViewModel());
         }
 
-        //[OutputCache(Duration = 600)]
+        //[OutputCache(Durata = 600 sec)]
         public ActionResult HomeSliders()
         {
             HomeSlidersViewModel model = new HomeSlidersViewModel
