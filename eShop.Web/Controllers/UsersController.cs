@@ -66,7 +66,7 @@ namespace eShop.Web.Controllers
                 return HttpContext.GetOwinContext().Authentication;
             }
         }
-
+        // constructor UsersController()
         public UsersController()
         {
         }
@@ -79,6 +79,8 @@ namespace eShop.Web.Controllers
         }
 
         #endregion
+
+        // *********** inregistratre utilizator ***********
 
         [HttpGet]
         [AllowAnonymous]
@@ -104,7 +106,7 @@ namespace eShop.Web.Controllers
             {
                 if (await RoleManager.RoleExistsAsync("User"))
                 {
-                    //assign User role to newly registered user
+                    // asignare rol pentru noul user
                     await UserManager.AddToRoleAsync(user.Id, "User");
                 }
 
@@ -128,11 +130,14 @@ namespace eShop.Web.Controllers
             return jsonResult;
         }
         
+        // ********** autentificare ***********
+
         [HttpGet]
         [AllowAnonymous]
         [OutputCache(Duration = 0)]
         public ActionResult Login(string returnUrl)
         {
+            // utilizatorul incepe logarea se invoca o noua sesiune de login 
             return View(new LoginViewModel() { ReturnUrl = returnUrl });
         }
 
@@ -166,6 +171,8 @@ namespace eShop.Web.Controllers
 
             return jsonResult;
         }
+
+        // *********** logare cu conturi sociale ***********
 
         [HttpPost]
         // acces utilizatorilor neautentificati pentru actiuni individuale
@@ -216,6 +223,8 @@ namespace eShop.Web.Controllers
             }
         }
 
+        // *********** delogare ***********
+
         [HttpPost]
         // daca nu exista token sau este invalid, action method nu se executa
         [ValidateAntiForgeryToken]
@@ -232,6 +241,8 @@ namespace eShop.Web.Controllers
         {
             return View(new ForgotPasswordViewModel());
         }
+
+        // *********** recuperare parola - generare token de resetare ***********
 
         [HttpPost]
         // acces utilizatorilor neautentificati pentru actiuni individuale
@@ -261,7 +272,7 @@ namespace eShop.Web.Controllers
             return jResult;
         }
 
-        // acces utilizatorilor neautentificati pentru actiuni individuale
+        // *********** recuperare parola - resetare parola ***********
         [AllowAnonymous]
         public ActionResult ResetPassword(string code, string userId)
         {
@@ -304,7 +315,8 @@ namespace eShop.Web.Controllers
 
             return jResult;
         }
-        
+
+        // *********** profil utilizator ***********
         public ActionResult UserProfile(string tab)
         {
             ProfileDetailsViewModel model = new ProfileDetailsViewModel
@@ -325,6 +337,8 @@ namespace eShop.Web.Controllers
                 return View(model);
             }
         }
+
+        // *********** modificare profil utilizator ***********
 
         [HttpPost]
         public async Task<JsonResult> UpdateProfile(UpdateProfileDetailsViewModel model)
@@ -371,6 +385,7 @@ namespace eShop.Web.Controllers
             return PartialView("_ChangePassword", model);
         }
 
+        // *********** modificare parola ***********
         public async Task<JsonResult> UpdatePassword(UpdatePasswordViewModel model)
         {
             JsonResult jResult = new JsonResult();
@@ -395,7 +410,7 @@ namespace eShop.Web.Controllers
 
             return jResult;
         }
-
+        // *********** modificare poza profil ***********
         public async Task<ActionResult> ChangeAvatar()
         {
             ProfileDetailsViewModel model = new ProfileDetailsViewModel
@@ -432,7 +447,7 @@ namespace eShop.Web.Controllers
             return jResult;
         }
 
-        // Used for XSRF protection when adding external logins
+        // protectie XSRF pentru logari cu conturi sociale
         private const string XsrfKey = "XsrfId";
         internal class ChallengeResult : HttpUnauthorizedResult
         {

@@ -506,7 +506,7 @@
 <Resource Key="Dashboard.Products.Action.Price" Value="Pret" />
 <Resource Key="Dashboard.Products.Action.PricePlaceholder" Value="Pretul produsului" />
 <Resource Key="Dashboard.Products.Action.SelectPictures" Value="Selecteaza o imagine" />
-<Resource Key="Dashboard.Products.Action.SetThumbnailImage" Value="Setati ca o imagine in miniatura />
+<Resource Key="Dashboard.Products.Action.SetThumbnailImage" Value="Setati ca o imagine in miniatura" />
 <Resource Key="Dashboard.Products.Action.RemovePicture" Value="Elimina imaginea" />
 <Resource Key="Dashboard.Products.Action.FeaturedProduct" Value="Oferta" />
 <Resource Key="Dashboard.Products.Update" Value="Actualizeaza" />
