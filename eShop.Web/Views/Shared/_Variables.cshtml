@@ -1,11 +1,15 @@
 ﻿@using Newtonsoft.Json;
 
-<script>    
+<script>   
+    // obiectul cartItem JavaScript este trimis catre controler
     var cartItems = @(Html.Raw(JsonConvert.SerializeObject(SessionHelper.CartItems)));
+    // permite activarea vizualizarii in mod intunecat
     var darkModeEnabled = @(SessionHelper.DarkMode);
 
+    // directia textului 
     const DIR = '@(AppDataHelper.IsRTL ? "rtl" : "ltr")';
     const ISRTL = DIR == 'rtl';
+    // simbolul pentru valuta
     const CURRENCYSYMBOL = "@ConfigurationsHelper.CurrencySymbol";
     const PRICECURRENCYPOSITION = "@ConfigurationsHelper.PriceCurrencyPosition.Replace("{currency}", ConfigurationsHelper.CurrencySymbol)";
     const DIGITSAFTERDECIMAL = "@ConfigurationsHelper.DigitsAfterDecimalPoint";

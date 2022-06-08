@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace eShop.Entities
 {
+    // tabela Product
     public class Product : BaseEntity
     {
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
-
         
         public decimal Price { get; set; }
         public decimal? Discount { get; set; }

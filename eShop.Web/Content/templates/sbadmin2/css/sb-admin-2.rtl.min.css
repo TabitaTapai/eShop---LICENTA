@@ -511,6 +511,10 @@ mark {
     color: #858796
 }
 
+small.text-muted {
+    display: none !important;
+}
+
     .blockquote-footer::before {
         content: "\2014\00A0"
     }

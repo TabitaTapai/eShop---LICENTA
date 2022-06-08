@@ -82,7 +82,7 @@
     <Compile Include="Comment.cs" />
     <Compile Include="Configuration.cs" />
     <Compile Include="ConfigurationType.cs" />
-    <Compile Include="eCommerceUser.cs" />
+    <Compile Include="eShopUser.cs" />
     <Compile Include="EntityEnums.cs" />
     <Compile Include="Picture.cs" />
     <Compile Include="ProductSpecification.cs" />

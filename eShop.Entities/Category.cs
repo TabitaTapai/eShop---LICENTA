@@ -11,6 +11,7 @@ namespace eShop.Entities
     {
         // categoria parinte din care face parte subcategoria
         public int? ParentCategoryID { get; set; }
+        // permitem suprascrierea intr-o clasa derivata
         public virtual Category ParentCategory { get; set; }
 
         // este marcat ca produs recomandat

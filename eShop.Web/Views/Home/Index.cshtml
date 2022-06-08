@@ -1,6 +1,7 @@
 ﻿@model eShop.Web.ViewModels.PageViewModel
-
+ @*am adaugat @ in fata codului JavaScript pentru a fi ignorat de Razor*@
 @{
+   
     if (Model != null)
     {
         Model.PageTitle = "PP.Home.Title".LocalizedString();
@@ -9,6 +10,7 @@
         Model.PageImageURL = PictureHelper.PageImageURL("home.jpg");
     }
 
+    //randam direct in fluxul de raspuns (nume_actiune, nume_controler)
     Html.RenderAction("HomeSliders", "Home");
     Html.RenderAction("FeaturedCategories", "Categories", new { recordSize = 4, isForHomePage = true });
     Html.RenderAction("ProductsByFeaturedCategories", "Categories", new { recordSize = 4 });
@@ -70,27 +72,27 @@
             </div>
         </div>
     </section>
-    <div class="partner-logo" title="@("PP.Home.Showcase.OurPartners".LocalizedString())">
+    @*<div class="partner-logo" title="@("PP.Home.Showcase.OurPartners".LocalizedString())">
         <div class="container">
             <div class="logo-carousel owl-carousel">
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="~/Content/templates/img/logo-carousel/logo-1.png" alt="">
+                        <img src="~/Content/templates/img/logo-carousel/intel.png" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="~/Content/templates/img/logo-carousel/logo-2.png" alt="">
+                        <img src="~/Content/templates/img/logo-carousel/iphone.png" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="~/Content/templates/img/logo-carousel/logo-1.png" alt="">
+                        <img src="~/Content/templates/img/logo-carousel/samsung.png" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="~/Content/templates/img/logo-carousel/logo-2.png" alt="">
+                        <img src="~/Content/templates/img/logo-carousel/lenovo.png" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
@@ -100,5 +102,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>*@
 }

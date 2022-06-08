@@ -23,3 +23,11 @@
 .loading-overlay .spinner-div {
     height: 100%;
 }
+
+small.text-muted {
+    display: none !important;
+}
+
+.mt-2 {
+    display: none !important;
+}
