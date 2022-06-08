@@ -26,7 +26,7 @@
                             @CategoryHelpers.GetCategoryAllChildrensProductCount(category, Model.Categories)
                         </span>
                         <div class="category-item-holder @(category.ID == Model.CategoryID ? "text-white" : string.Empty)">
-                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-caret-right"></i>
                         </div>
                         <a class="@(category.ID == Model.CategoryID ? "active" : string.Empty)" href="@Url.SearchProducts(category: category.SanitizedName, q: Model.SearchTerm)">
                             @(currentLanguageCategoryRecord != null ? currentLanguageCategoryRecord.Name : string.Empty)

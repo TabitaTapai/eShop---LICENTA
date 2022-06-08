@@ -411,7 +411,7 @@
 <Resource Key="Dashboard.Menu.Configurations" Value="Configurare" />
 <Resource Key="Dashboard.Menu.AllConfigurations" Value="Toate configurarile" />
 <Resource Key="Dashboard.Menu.LanguageConfigurations" Value="Configurare limba" />
-<Resource Key="Dashboard.Menu.NewsletterSubscribers" Value="Abonat la buletinul informativ" />
+<Resource Key="Dashboard.Menu.NewsletterSubscribers" Value="Abonati la newsletter" />
 <Resource Key="Dashboard.TopMenu.Profile" Value="Profil" />
 <Resource Key="Dashboard.TopMenu.LogOff" Value="Iesi din cont" />
 <Resource Key="Dashboard.Dashboard.Hello" Value="Buna! {user}!" />
@@ -421,8 +421,8 @@
 <Resource Key="Dashboard.Dashboard.TotalCategories" Value="Totalul categoriilor" />
 <Resource Key="Dashboard.Dashboard.TotalOrders" Value="Totalul comenziilor" />
 <Resource Key="Dashboard.Dashboard.TotalComments" Value="Totalul comentariilor" />
-<Resource Key="Dashboard.Dashboard.NoOfUsers" Value="No. Of Users" />
-<Resource Key="Dashboard.Dashboard.NoOfRoles" Value="No. of Roles" />
+<Resource Key="Dashboard.Dashboard.NoOfUsers" Value="Numarul de utilizatori" />
+<Resource Key="Dashboard.Dashboard.NoOfRoles" Value="Numarul de roluri" />
 <Resource Key="Dashboard.Categories.Title" Value="Categorii" />
 <Resource Key="Dashboard.Categories.Description" Value="Lista categoriilor" />
 <Resource Key="Dashboard.Categories.SearchPlaceholder" Value="Cauta dupa numele categoriei" />
@@ -663,38 +663,38 @@
 <Resource Key="Dashboard.Comments.Action.Validation.UnableToDeleteComment" Value="Acest comentariu nu poate fi sters." />
 <Resource Key="Dashboard.Comments.List.NoRecordFound" Value="Nu a fost gasit nici un comentariu." />
 <Resource Key="Dashboard.Users.Title" Value="Utilizatorii" />
-<Resource Key="Dashboard.Users.Description" Value="Users listing page." />
-<Resource Key="Dashboard.Users.SearchPlaceholder" Value="Search by Username or Email" />
-<Resource Key="Dashboard.Users.SelectByRole" Value="Select by Role" />
-<Resource Key="Dashboard.Users.Search" Value="Search" />
-<Resource Key="Dashboard.Users.Reset" Value="Reset" />
-<Resource Key="Dashboard.Users.List.RegisteredOn" Value="Registered On" />
-<Resource Key="Dashboard.Users.List.Name" Value="Name" />
-<Resource Key="Dashboard.Users.List.Username" Value="Username" />
+<Resource Key="Dashboard.Users.Description" Value="Lista utilizatori inregistrati." />
+<Resource Key="Dashboard.Users.SearchPlaceholder" Value="Cauta dupa Username sau Email" />
+<Resource Key="Dashboard.Users.SelectByRole" Value="Selecteaza dupa rol" />
+<Resource Key="Dashboard.Users.Search" Value="Cauta" />
+<Resource Key="Dashboard.Users.Reset" Value="Renunta" />
+<Resource Key="Dashboard.Users.List.RegisteredOn" Value="Inregistrat in" />
+<Resource Key="Dashboard.Users.List.Name" Value="Nume" />
+<Resource Key="Dashboard.Users.List.Username" Value="Nume utilizator" />
 <Resource Key="Dashboard.Users.List.Email" Value="Email" />
-<Resource Key="Dashboard.Users.List.Roles" Value="Roles" />
-<Resource Key="Dashboard.Users.List.Actions" Value="Actions" />
-<Resource Key="Dashboard.Users.List.MoreDetails" Value="More Details" />
-<Resource Key="Dashboard.Users.List.NoRecordFound" Value="No users found." />
-<Resource Key="Dashboard.UserDetails.Title" Value="User Details" />
-<Resource Key="Dashboard.UserDetails.Description" Value="User details." />
-<Resource Key="Dashboard.UserDetails.Username" Value="Username" />
-<Resource Key="Dashboard.UserDetails.Location" Value="Location" />
+<Resource Key="Dashboard.Users.List.Roles" Value="Rol" />
+<Resource Key="Dashboard.Users.List.Actions" Value="Actiune" />
+<Resource Key="Dashboard.Users.List.MoreDetails" Value="Detalii" />
+<Resource Key="Dashboard.Users.List.NoRecordFound" Value="Numar de utilizatori gasiti." />
+<Resource Key="Dashboard.UserDetails.Title" Value="Detalii utilizator" />
+<Resource Key="Dashboard.UserDetails.Description" Value="Detalii utilizator." />
+<Resource Key="Dashboard.UserDetails.Username" Value="Nume utilizator" />
+<Resource Key="Dashboard.UserDetails.Location" Value="Locatie" />
 <Resource Key="Dashboard.UserDetails.Info" Value="Info" />
-<Resource Key="Dashboard.UserDetails.Roles" Value="Roles" />
-<Resource Key="Dashboard.UserDetails.Orders" Value="Orders" />
-<Resource Key="Dashboard.UserDetails.Comments" Value="Comments" />
-<Resource Key="Dashboard.UserDetails.NoUserFound" Value="No User found." />
-<Resource Key="Dashboard.UserDetails.Info.FullName" Value="Full Name" />
-<Resource Key="Dashboard.UserDetails.Info.PhoneNumber" Value="Phone Number" />
-<Resource Key="Dashboard.UserDetails.Info.Country" Value="Country" />
-<Resource Key="Dashboard.UserDetails.Info.City" Value="City" />
-<Resource Key="Dashboard.UserDetails.Info.Address" Value="Address" />
-<Resource Key="Dashboard.UserDetails.Info.ZipCode" Value="Zip Code" />
+<Resource Key="Dashboard.UserDetails.Roles" Value="Roluri" />
+<Resource Key="Dashboard.UserDetails.Orders" Value="Comenzi" />
+<Resource Key="Dashboard.UserDetails.Comments" Value="Comentarii" />
+<Resource Key="Dashboard.UserDetails.NoUserFound" Value="Nici un utilizator gasit." />
+<Resource Key="Dashboard.UserDetails.Info.FullName" Value="Nume complet" />
+<Resource Key="Dashboard.UserDetails.Info.PhoneNumber" Value="Numar telefon" />
+<Resource Key="Dashboard.UserDetails.Info.Country" Value="Tara" />
+<Resource Key="Dashboard.UserDetails.Info.City" Value="Orasul" />
+<Resource Key="Dashboard.UserDetails.Info.Address" Value="Adresa" />
+<Resource Key="Dashboard.UserDetails.Info.ZipCode" Value="Cod postal" />
 <Resource Key="Dashboard.UserDetails.Info.Email" Value="Email" />
-<Resource Key="Dashboard.UserDetails.Info.Username" Value="Username" />
-<Resource Key="Dashboard.UserDetails.Info.Update" Value="Update" />
-<Resource Key="Dashboard.UserDetails.Info.Delete" Value="Delete" />
+<Resource Key="Dashboard.UserDetails.Info.Username" Value="Nume utilizator" />
+<Resource Key="Dashboard.UserDetails.Info.Update" Value="Actualizeaza" />
+<Resource Key="Dashboard.UserDetails.Info.Delete" Value="Sterge" />
 <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameRequired" Value="Full Name is required." />
 <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMinimumLength" Value="Minimum Length is {min}." />
 <Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMaximumLength" Value="Maximum Length is {max}." />
@@ -707,13 +707,13 @@
 <Resource Key="Dashboard.UserDetails.Info.Action.Validation.InfoUpdated" Value="Info Updated successfully." />
 <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoDeleteUser" Value="Unable to delete user." />
 <Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserDeleted" Value="User Deleted successfully." />
-<Resource Key="Dashboard.UserDetails.Roles.CurrentUserRoles" Value="Current User Roles" />
-<Resource Key="Dashboard.UserDetails.Roles.RemoveUserRole" Value="Remove Role" />
-<Resource Key="Dashboard.UserDetails.Roles.UserDoesntHaveRoles" Value="User doesn’t have any roles." />
-<Resource Key="Dashboard.UserDetails.Roles.AssignNewRoles" Value="Assign New Role" />
-<Resource Key="Dashboard.UserDetails.Roles.SelectRole" Value="Select Role" />
-<Resource Key="Dashboard.UserDetails.Roles.AssignUserRole" Value="Assign Role" />
-<Resource Key="Dashboard.UserDetails.Roles.Action.Validation.SelectValidRole" Value="Please select a Role." />
+<Resource Key="Dashboard.UserDetails.Roles.CurrentUserRoles" Value="Rol actual al utilizatorului" />
+<Resource Key="Dashboard.UserDetails.Roles.RemoveUserRole" Value="Sterge rolul" />
+<Resource Key="Dashboard.UserDetails.Roles.UserDoesntHaveRoles" Value="User nu are nici un rol." />
+<Resource Key="Dashboard.UserDetails.Roles.AssignNewRoles" Value="Asignati un rol" />
+<Resource Key="Dashboard.UserDetails.Roles.SelectRole" Value="Selectati un rol" />
+<Resource Key="Dashboard.UserDetails.Roles.AssignUserRole" Value="Asignati un rol" />
+<Resource Key="Dashboard.UserDetails.Roles.Action.Validation.SelectValidRole" Value="Va rugam selecati un rol!" />
 <Resource Key="Dashboard.UserDetails.Orders.SearchByOrderIDPlaceholder" Value="Search by Order ID" />
 <Resource Key="Dashboard.UserDetails.Orders.SelectByOrderStatus" Value="Select by Order Status…" />
 <Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Placed" Value="Placed" />
