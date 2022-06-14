@@ -16,6 +16,7 @@ namespace eShop.Shared.Helpers
 			byte[] buffer = Convert.FromBase64String(txt);
 			using (Aes aes = Aes.Create())
 			{
+				//vector initial
 				aes.Key = Encoding.UTF8.GetBytes("b14ca5898a4e4133bbce2ea2315a1916");
 				aes.IV = iv;
 				ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
