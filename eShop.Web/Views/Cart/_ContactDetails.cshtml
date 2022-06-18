@@ -14,7 +14,7 @@
             </div>
             <div class="col">
                 <label>@("PP.Checkout.PhoneNumber".LocalizedString())</label>
-                <input name="PhoneNumber" type="tel" class="form-control ltr-dir @(AppDataHelper.IsRTL ? "text-left" : string.Empty)" value="@Model.User.PhoneNumber" placeholder="+12 34567890">
+                <input name="PhoneNumber" type="tel" class="form-control ltr-dir @(AppDataHelper.IsRTL ? "text-left" : string.Empty)" value="@Model.User.PhoneNumber" placeholder="+40 123456789">
             </div>
         </div>
         @if (!User.Identity.IsAuthenticated)

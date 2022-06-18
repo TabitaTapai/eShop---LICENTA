@@ -695,18 +695,18 @@
 <Resource Key="Dashboard.UserDetails.Info.Username" Value="Nume utilizator" />
 <Resource Key="Dashboard.UserDetails.Info.Update" Value="Actualizeaza" />
 <Resource Key="Dashboard.UserDetails.Info.Delete" Value="Sterge" />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameRequired" Value="Full Name is required." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.CountryRequired" Value="Country is required." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.CityRequired" Value="City is required." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.AddressRequired" Value="Address is required." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.DataNotFormatted" Value="Data not formatted." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserNotFound" Value="User not found." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoUpdateInfo" Value="Unable to update info." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.InfoUpdated" Value="Info Updated successfully." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoDeleteUser" Value="Unable to delete user." />
-<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserDeleted" Value="User Deleted successfully." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameRequired" Value="Numele complet este obligatoriu." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMinimumLength" Value="Numarul minim de litere este {min}." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMaximumLength" Value="Numarul maxim de litere este {max}." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.CountryRequired" Value="Tara este obligatorie ." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.CityRequired" Value="Orasul este obligatoriu." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.AddressRequired" Value="Adresa este obligatorie." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.DataNotFormatted" Value="Datele nu sunt formate." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserNotFound" Value="Utilizatorul nu a fost gasit." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoUpdateInfo" Value="Informatiile nu pot fi actualizate." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.InfoUpdated" Value="Informatiile au fost actualizate cu succes." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoDeleteUser" Value="Utilizatorul nu poate fi eliminat." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserDeleted" Value="Utilizatorul a fost eliminat cu succes." />
 <Resource Key="Dashboard.UserDetails.Roles.CurrentUserRoles" Value="Rol actual al utilizatorului" />
 <Resource Key="Dashboard.UserDetails.Roles.RemoveUserRole" Value="Sterge rolul" />
 <Resource Key="Dashboard.UserDetails.Roles.UserDoesntHaveRoles" Value="User nu are nici un rol." />
@@ -714,167 +714,167 @@
 <Resource Key="Dashboard.UserDetails.Roles.SelectRole" Value="Selectati un rol" />
 <Resource Key="Dashboard.UserDetails.Roles.AssignUserRole" Value="Asignati un rol" />
 <Resource Key="Dashboard.UserDetails.Roles.Action.Validation.SelectValidRole" Value="Va rugam selecati un rol!" />
-<Resource Key="Dashboard.UserDetails.Orders.SearchByOrderIDPlaceholder" Value="Search by Order ID" />
-<Resource Key="Dashboard.UserDetails.Orders.SelectByOrderStatus" Value="Select by Order Status…" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Placed" Value="Placed" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Processing" Value="Processing" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Delivered" Value="Delivered" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Failed" Value="Failed" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Cancelled" Value="Cancelled" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.OnHold" Value="On Hold" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.WaitingForPayment" Value="Waiting For Payment" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Refunded" Value="Refunded" />
-<Resource Key="Dashboard.UserDetails.Orders.Search" Value="Search" />
-<Resource Key="Dashboard.UserDetails.Orders.Reset" Value="Reset" />
-<Resource Key="Dashboard.UserDetails.Orders.PlacedOnDate" Value="Placed On Date" />
-<Resource Key="Dashboard.UserDetails.Orders.OrderAmount" Value="Order Amount" />
-<Resource Key="Dashboard.UserDetails.Orders.PaymentMethod" Value="Payment Method" />
+<Resource Key="Dashboard.UserDetails.Orders.SearchByOrderIDPlaceholder" Value="Cauta dupa ID-ul comenzii" />
+<Resource Key="Dashboard.UserDetails.Orders.SelectByOrderStatus" Value="Selecteaza dupa statusul comenzii …" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Placed" Value="Plasta" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Processing" Value="In procesare" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Delivered" Value="Livrata" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Failed" Value="Eroare" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Cancelled" Value="Anulata" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.OnHold" Value="In asteptare" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.WaitingForPayment" Value="In asteptarea platii" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Refunded" Value="Returnat" />
+<Resource Key="Dashboard.UserDetails.Orders.Search" Value="Cauta" />
+<Resource Key="Dashboard.UserDetails.Orders.Reset" Value="Reseteaza" />
+<Resource Key="Dashboard.UserDetails.Orders.PlacedOnDate" Value="Plasata la data" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderAmount" Value="Cantitatea comenzii" />
+<Resource Key="Dashboard.UserDetails.Orders.PaymentMethod" Value="Metoda de plata" />
 <Resource Key="Dashboard.UserDetails.Orders.Status" Value="Status" />
-<Resource Key="Dashboard.UserDetails.Orders.Actions" Value="Actions" />
-<Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CreditCard" Value="Credit Card" />
+<Resource Key="Dashboard.UserDetails.Orders.Actions" Value="Actiuni" />
+<Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CreditCard" Value="Card de credit" />
 <Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.PayPal" Value="PayPal" />
-<Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CashOnDelivery" Value="Cash On Delivery" />
-<Resource Key="Dashboard.UserDetails.Orders.UpdatedOn" Value="Updated On" />
-<Resource Key="Dashboard.UserDetails.Orders.Details" Value="Details" />
-<Resource Key="Dashboard.UserDetails.Orders.Track" Value="Track" />
-<Resource Key="Dashboard.UserDetails.Orders.NoOrdersFound" Value="No Orders found." />
-<Resource Key="Dashboard.UserDetails.Comments.SearchCommentsPlaceholder" Value="Search in Comments" />
-<Resource Key="Dashboard.UserDetails.Comments.SearchComments" Value="Search" />
-<Resource Key="Dashboard.UserDetails.Comments.Reset" Value="Reset" />
+<Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CashOnDelivery" Value="Cash la livrare" />
+<Resource Key="Dashboard.UserDetails.Orders.UpdatedOn" Value="Actulizat la " />
+<Resource Key="Dashboard.UserDetails.Orders.Details" Value="Detalii" />
+<Resource Key="Dashboard.UserDetails.Orders.Track" Value="Urmareste comanda" />
+<Resource Key="Dashboard.UserDetails.Orders.NoOrdersFound" Value="Nu a fost gasita nici o comanda." />
+<Resource Key="Dashboard.UserDetails.Comments.SearchCommentsPlaceholder" Value="Cauta in comentarii" />
+<Resource Key="Dashboard.UserDetails.Comments.SearchComments" Value="Cauta" />
+<Resource Key="Dashboard.UserDetails.Comments.Reset" Value="Reseteaza" />
 <Resource Key="Dashboard.UserDetails.Comments.CommentUserName" Value="{user}" />
 <Resource Key="Dashboard.UserDetails.Comments.CommentTimestamp" Value="{datetime}" />
-<Resource Key="Dashboard.UserDetails.Comments.DeleteComment" Value="Delete Comment" />
-<Resource Key="Dashboard.UserDetails.Comments.NoComments" Value="No comments found." />
-<Resource Key="Dashboard.Roles.Title" Value="Roles" />
-<Resource Key="Dashboard.Roles.Description" Value="Roles Listing." />
-<Resource Key="Dashboard.Roles.SearchPlaceholder" Value="Search Role" />
-<Resource Key="Dashboard.Roles.Search" Value="Search" />
-<Resource Key="Dashboard.Roles.Reset" Value="Reset" />
+<Resource Key="Dashboard.UserDetails.Comments.DeleteComment" Value="Sterge comentariul" />
+<Resource Key="Dashboard.UserDetails.Comments.NoComments" Value="Nu a fost gasit nici un comentariu." />
+<Resource Key="Dashboard.Roles.Title" Value="Roluri" />
+<Resource Key="Dashboard.Roles.Description" Value="Lista rolurilor." />
+<Resource Key="Dashboard.Roles.SearchPlaceholder" Value="Cauta roluri " />
+<Resource Key="Dashboard.Roles.Search" Value="Cauta" />
+<Resource Key="Dashboard.Roles.Reset" Value="Reseteaza" />
 <Resource Key="Dashboard.Roles.CreateRole" Value="Create Role" />
-<Resource Key="Dashboard.Roles.CreateNewRole" Value="Create New Role" />
-<Resource Key="Dashboard.Roles.Create.Name" Value="Role Name" />
-<Resource Key="Dashboard.Roles.Create.NamePlaceholder" Value="Add Role Name" />
-<Resource Key="Dashboard.Roles.Close" Value="Close" />
-<Resource Key="Dashboard.Roles.Save" Value="Save" />
-<Resource Key="Dashboard.Roles.Save.Validations.NameRequired" Value="Role Name is required." />
-<Resource Key="Dashboard.Roles.Save.Validations.NameMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Roles.Save.Validations.NameMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.Roles.Role" Value="Role" />
-<Resource Key="Dashboard.Roles.Users" Value="Users" />
-<Resource Key="Dashboard.Roles.Actions" Value="Actions" />
-<Resource Key="Dashboard.Roles.MoreDetails" Value="More Details" />
-<Resource Key="Dashboard.Roles.NoRolesFound" Value="No Roles found." />
-<Resource Key="Dashboard.RoleDetails.Title" Value="Role Details" />
-<Resource Key="Dashboard.RoleDetails.Description" Value="Role Details" />
-<Resource Key="Dashboard.RoleDetails.Info" Value="Info" />
-<Resource Key="Dashboard.RoleDetails.Users" Value="Users" />
-<Resource Key="Dashboard.RoleDetails.Info.Name" Value="Name" />
-<Resource Key="Dashboard.RoleDetails.Info.Update" Value="Update" />
-<Resource Key="Dashboard.RoleDetails.Info.Delete" Value="Delete" />
-<Resource Key="Dashboard.RoleDetails.Info.AdministratorRoleNotification" Value="This role is not allowed to be updated or deleted because it is being used for authorization." />
-<Resource Key="Dashboard.RoleDetails.Info.RoleInfoUpdated" Value="Role info updated." />
-<Resource Key="Dashboard.RoleDetails.Users.UsersWithRole" Value="Users with this Role" />
-<Resource Key="Dashboard.RoleDetails.Users.MoreDetails" Value="More Details" />
-<Resource Key="Dashboard.RoleDetails.Users.NoUsersWithRole" Value="This role doesnt have any users." />
-<Resource Key="Dashboard.Configurations.Title" Value="Configurations" />
-<Resource Key="Dashboard.Configurations.Description" Value="Configurations listing." />
-<Resource Key="Dashboard.Configurations.SearchPlaceholder" Value="Search Configurations" />
-<Resource Key="Dashboard.Configurations.SelectByConfigurationType" Value="Select by Configuration Type" />
+<Resource Key="Dashboard.Roles.CreateNewRole" Value="Creaza un rol nou" />
+<Resource Key="Dashboard.Roles.Create.Name" Value="Denumire rol" />
+<Resource Key="Dashboard.Roles.Create.NamePlaceholder" Value="Adauga o denumire" />
+<Resource Key="Dashboard.Roles.Close" Value="Inchide" />
+<Resource Key="Dashboard.Roles.Save" Value="Salveaza" />
+<Resource Key="Dashboard.Roles.Save.Validations.NameRequired" Value="Denumirea rolului este obligatorie." />
+<Resource Key="Dashboard.Roles.Save.Validations.NameMinimumLength" Value="Numarul minim de litere este {min}." />
+<Resource Key="Dashboard.Roles.Save.Validations.NameMaximumLength" Value="Numarul maxim de litere este {max}." />
+<Resource Key="Dashboard.Roles.Role" Value="Rolul" />
+<Resource Key="Dashboard.Roles.Users" Value="Utilizatori" />
+<Resource Key="Dashboard.Roles.Actions" Value="Actiuni" />
+<Resource Key="Dashboard.Roles.MoreDetails" Value="Mai multe detalii" />
+<Resource Key="Dashboard.Roles.NoRolesFound" Value="Nu a fost gasit nici un rol." />
+<Resource Key="Dashboard.RoleDetails.Title" Value="Detalii roluri" />
+<Resource Key="Dashboard.RoleDetails.Description" Value="Detalii roluri" />
+<Resource Key="Dashboard.RoleDetails.Info" Value="Informatii" />
+<Resource Key="Dashboard.RoleDetails.Users" Value="Utilizatori" />
+<Resource Key="Dashboard.RoleDetails.Info.Name" Value="Nume" />
+<Resource Key="Dashboard.RoleDetails.Info.Update" Value="Actualizeaza" />
+<Resource Key="Dashboard.RoleDetails.Info.Delete" Value="Sterge" />
+<Resource Key="Dashboard.RoleDetails.Info.AdministratorRoleNotification" Value=" Acest rol nu poate fi actulizat sau sters deoarece este folosit pentru autorizare." />
+<Resource Key="Dashboard.RoleDetails.Info.RoleInfoUpdated" Value="Actualizeaza informatiile rolului." />
+<Resource Key="Dashboard.RoleDetails.Users.UsersWithRole" Value="Utilizatori cu acest rol" />
+<Resource Key="Dashboard.RoleDetails.Users.MoreDetails" Value="Mai multe detalii" />
+<Resource Key="Dashboard.RoleDetails.Users.NoUsersWithRole" Value="Acest rol nu are nici un utilizator." />
+<Resource Key="Dashboard.Configurations.Title" Value="Configurari" />
+<Resource Key="Dashboard.Configurations.Description" Value="Lista configurari." />
+<Resource Key="Dashboard.Configurations.SearchPlaceholder" Value="Cauta configurari" />
+<Resource Key="Dashboard.Configurations.SelectByConfigurationType" Value="Selecteaza dupa tipul configurarii" />
 <Resource Key="Dashboard.Configurations.ConfigurationTypes.Site" Value="Site" />
 <Resource Key="Dashboard.Configurations.ConfigurationTypes.Sliders" Value="Slider" />
-<Resource Key="Dashboard.Configurations.ConfigurationTypes.Promotions" Value="Promotions" />
-<Resource Key="Dashboard.Configurations.ConfigurationTypes.SocialLinks" Value="Social Links" />
-<Resource Key="Dashboard.Configurations.ConfigurationTypes.Other" Value="Other" />
-<Resource Key="Dashboard.Configurations.Search" Value="Search" />
-<Resource Key="Dashboard.Configurations.Reset" Value="Reset" />
-<Resource Key="Dashboard.Configurations.List.Key" Value="Key" />
-<Resource Key="Dashboard.Configurations.List.Value" Value="Value" />
-<Resource Key="Dashboard.Configurations.List.ConfigurationType" Value="Configuration Type" />
-<Resource Key="Dashboard.Configurations.List.Actions" Value="Actions" />
-<Resource Key="Dashboard.Configurations.List.Edit" Value="Edit" />
-<Resource Key="Dashboard.Configurations.NoConfigurationFound" Value="No Configuration found" />
-<Resource Key="Dashboard.Configurations.EditConfiguration" Value="Edit Configuration" />
-<Resource Key="Dashboard.Configurations.UnableToUpdateConfigurations" Value="Unable to update configurations." />
-<Resource Key="Dashboard.Configurations.Edit.Value" Value="Value" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.Promotions" Value="Promotii" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.SocialLinks" Value="Likuri sociale" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.Other" Value="Altele" />
+<Resource Key="Dashboard.Configurations.Search" Value="Cauta" />
+<Resource Key="Dashboard.Configurations.Reset" Value="Reseteaza" />
+<Resource Key="Dashboard.Configurations.List.Key" Value="Cheie" />
+<Resource Key="Dashboard.Configurations.List.Value" Value="Valoare" />
+<Resource Key="Dashboard.Configurations.List.ConfigurationType" Value="Tipul configurarii" />
+<Resource Key="Dashboard.Configurations.List.Actions" Value="Actiuni" />
+<Resource Key="Dashboard.Configurations.List.Edit" Value="Editeaza" />
+<Resource Key="Dashboard.Configurations.NoConfigurationFound" Value="Nu a fost gasita nici o configurare" />
+<Resource Key="Dashboard.Configurations.EditConfiguration" Value="Editeaza configurarea" />
+<Resource Key="Dashboard.Configurations.UnableToUpdateConfigurations" Value="Configurarea nu poate fi actualizata." />
+<Resource Key="Dashboard.Configurations.Edit.Value" Value="Valoare" />
 <Resource Key="Dashboard.Configurations.Edit.SliderPicture" Value="Slider Picture" />
-<Resource Key="Dashboard.Configurations.Edit.Heading" Value="Heading" />
-<Resource Key="Dashboard.Configurations.Edit.Paragraph" Value="Paragraph" />
+<Resource Key="Dashboard.Configurations.Edit.Heading" Value="Rubrica" />
+<Resource Key="Dashboard.Configurations.Edit.Paragraph" Value="Paragraf" />
 <Resource Key="Dashboard.Configurations.Edit.LinkURL" Value="Link URL" />
-<Resource Key="Dashboard.Configurations.Edit.Close" Value="Close" />
-<Resource Key="Dashboard.Configurations.Edit.Save" Value="Save" />
-<Resource Key="Dashboard.Configurations.Edit.Validation.ConfigurationValueRequited" Value="Configuration Value is required." />
-<Resource Key="Dashboard.Configurations.ConfigurationNotFound" Value="Configuration not found." />
-<Resource Key="Dashboard.Languages.Title" Value="Languages" />
-<Resource Key="Dashboard.Languages.Description" Value="Languages listing" />
-<Resource Key="Dashboard.Languages.SearchPlaceholder" Value="Search Languages" />
-<Resource Key="Dashboard.Languages.Search" Value="Search" />
-<Resource Key="Dashboard.Languages.Reset" Value="Reset" />
-<Resource Key="Dashboard.Languages.AddLanguage" Value="Add Language" />
-<Resource Key="Dashboard.Languages.List.Icon" Value="Icon" />
-<Resource Key="Dashboard.Languages.List.Name" Value="Name" />
-<Resource Key="Dashboard.Languages.List.ShortCode" Value="Short Code" />
+<Resource Key="Dashboard.Configurations.Edit.Close" Value="Inchide" />
+<Resource Key="Dashboard.Configurations.Edit.Save" Value="Salveaza" />
+<Resource Key="Dashboard.Configurations.Edit.Validation.ConfigurationValueRequited" Value="Configurarea valorii este obligatorie." />
+<Resource Key="Dashboard.Configurations.ConfigurationNotFound" Value="Nu a fost gasita nici o configurare." />
+<Resource Key="Dashboard.Languages.Title" Value="Limba" />
+<Resource Key="Dashboard.Languages.Description" Value="Lista limbilor" />
+<Resource Key="Dashboard.Languages.SearchPlaceholder" Value="Cauta limba" />
+<Resource Key="Dashboard.Languages.Search" Value="Cauta" />
+<Resource Key="Dashboard.Languages.Reset" Value="Reseteaza" />
+<Resource Key="Dashboard.Languages.AddLanguage" Value="Adauga limba" />
+<Resource Key="Dashboard.Languages.List.Icon" Value="Pictograma" />
+<Resource Key="Dashboard.Languages.List.Name" Value="Nume" />
+<Resource Key="Dashboard.Languages.List.ShortCode" Value="Cod scurt" />
 <Resource Key="Dashboard.Languages.List.Status" Value="Status" />
-<Resource Key="Dashboard.Languages.List.Actions" Value="Actions" />
-<Resource Key="Dashboard.Languages.DefaultSiteLanguage" Value="Default Site Language" />
-<Resource Key="Dashboard.Languages.LanguageWithoutResources" Value="This language does not have any resources. Please load resources to operate site in this language." />
-<Resource Key="Dashboard.Languages.List.Enabled" Value="Enabled" />
-<Resource Key="Dashboard.Languages.List.Disabled" Value="Disabled" />
-<Resource Key="Dashboard.Languages.List.Edit" Value="Edit" />
-<Resource Key="Dashboard.Languages.List.Disable" Value="Disable" />
-<Resource Key="Dashboard.Languages.List.Enable" Value="Enable" />
-<Resource Key="Dashboard.Languages.ConfirmDisableWarning" Value="Are you sure you want to disable this language?" />
-<Resource Key="Dashboard.Languages.ConfirmDisable" Value="Yes, disable it!" />
-<Resource Key="Dashboard.Languages.ConfirmDisableCancel" Value="No, Dont disable." />
-<Resource Key="Dashboard.Languages.List.NoLanguagesFound" Value="No Languages found." />
-<Resource Key="Dashboard.Languages.EditLangaugeTitle" Value="Edit Language" />
-<Resource Key="Dashboard.Languages.EditLanguageDescription" Value="Edit Language" />
-<Resource Key="Dashboard.Languages.CreateLanguageTitle" Value="Create Language" />
-<Resource Key="Dashboard.Languages.CreateLanguageDescription" Value="Create New Language" />
-<Resource Key="Dashboard.Languages.Action.Name" Value="Name" />
-<Resource Key="Dashboard.Languages.Action.ShortCode" Value="Short Code" />
-<Resource Key="Dashboard.Languages.Action.Enabled" Value="Enabled" />
-<Resource Key="Dashboard.Languages.Action.MakeDefault" Value="Make Default Language" />
-<Resource Key="Dashboard.Languages.Action.IsRTL" Value="Is RTL" />
-<Resource Key="Dashboard.Languages.Action.Icon" Value="Icon" />
-<Resource Key="Dashboard.Languages.Action.SelectLanguageIcon" Value="Select Language Icon" />
-<Resource Key="Dashboard.Languages.Action.SearchForIcon" Value="Search for Icon" />
-<Resource Key="Dashboard.Languages.Action.SearchIconPlaceholder" Value="Search with Country Short Name i.e US or GB" />
-<Resource Key="Dashboard.Languages.Action.Update" Value="Update" />
-<Resource Key="Dashboard.Languages.Action.Disable" Value="Disable" />
-<Resource Key="Dashboard.Languages.Action.Enable" Value="Enable" />
-<Resource Key="Dashboard.Languages.Action.Save" Value="Save" />
-<Resource Key="Dashboard.Languages.Action.Cancel" Value="Cancel" />
-<Resource Key="Dashboard.Languages.Action.Validation.NameRequired" Value="Name is required." />
-<Resource Key="Dashboard.Languages.Action.Validation.NameMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Languages.Action.Validation.NameMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeRequired" Value="Short Code is required." />
-<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMinimumLength" Value="Minimum Length is {min}." />
-<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMaximumLength" Value="Maximum Length is {max}." />
-<Resource Key="Dashboard.Languages.Action.ImportResources" Value="Import Resources" />
-<Resource Key="Dashboard.Languages.Action.ChooseFile" Value="Choose File" />
-<Resource Key="Dashboard.Languages.Action.Import" Value="Import" />
-<Resource Key="Dashboard.Languages.Action.ExportResources" Value="Export Resources" />
-<Resource Key="Dashboard.Languages.Action.ExportLanguageResources" Value="Export Language Resources" />
-<Resource Key="Dashboard.Languages.Action.Export" Value="Export" />
-<Resource Key="Dashboard.Languages.Action.ExportNoResourcesWarning" Value="This language doesn't have any resources. Please import the language pack." />
-<Resource Key="Dashboard.Languages.Action.ResourcesImportedSuccess" Value="Resources have been imported successfully." />
-<Resource Key="Dashboard.Languages.Action.ResourcesExportingWarning" Value="Preparing resource file can take some time. Please wait while the system generate the download file." />
-<Resource Key="Dashboard.Languages.Action.Validation.SelectFileToUpload" Value="Please select a file to upload." />
-<Resource Key="Dashboard.Languages.Action.Validation.SelectValidFileToUpload" Value="Please upload a file with correct format." />
-<Resource Key="Dashboard.Languages.Action.Validation.LanguageNotFound" Value="Language not found." />
-<Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageIsMust" Value="There must be a default language. Please set another language as Default and then update this language." />
-<Resource Key="Dashboard.Languages.Action.Validation.UnableToUpdateLanguage" Value="Unable to update Language." />
-<Resource Key="Dashboard.Languages.Action.Validation.UnableToCreateLanguage" Value="Unable to create Language." />
-<Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageCantBeDisabled" Value="The default language can not be made disabled." />
-<Resource Key="Dashboard.Languages.Action.Validation.NoResourcesInFile" Value="No Resources found in the file." />
-<Resource Key="Dashboard.Languages.Action.Validation.UnableToImportResources" Value="Unable to import resources." />
-<Resource Key="Dashboard.NewsletterSubscribers.Title" Value="Newsletter Subscribers" />
-<Resource Key="Dashboard.NewsletterSubscribers.Description" Value="Newsletter subscribers listing" />
-<Resource Key="Dashboard.NewsletterSubscribers.SearchPlaceholder" Value="Search by email." />
-<Resource Key="Dashboard.NewsletterSubscribers.Search" Value="Search" />
-<Resource Key="Dashboard.NewsletterSubscribers.Reset" Value="Reset" />
+<Resource Key="Dashboard.Languages.List.Actions" Value="Actiuni" />
+<Resource Key="Dashboard.Languages.DefaultSiteLanguage" Value="Limba implicita a site-ului" />
+<Resource Key="Dashboard.Languages.LanguageWithoutResources" Value="Aceasta limba nu are nici o resursa. Incarca o resursa pentru a putea opera site-ul in aceasta limba. ." />
+<Resource Key="Dashboard.Languages.List.Enabled" Value="Activat" />
+<Resource Key="Dashboard.Languages.List.Disabled" Value="Dezactivat" />
+<Resource Key="Dashboard.Languages.List.Edit" Value="Editeaza" />
+<Resource Key="Dashboard.Languages.List.Disable" Value="Dezactivat" />
+<Resource Key="Dashboard.Languages.List.Enable" Value="Activat" />
+<Resource Key="Dashboard.Languages.ConfirmDisableWarning" Value="Esti sigur ca vrei sa dezactivezi aceasta limba?" />
+<Resource Key="Dashboard.Languages.ConfirmDisable" Value="Da, dezactiveaz-o!" />
+<Resource Key="Dashboard.Languages.ConfirmDisableCancel" Value="Nu, nu o dezactiva." />
+<Resource Key="Dashboard.Languages.List.NoLanguagesFound" Value="Nu a fost gasita nici o limba." />
+<Resource Key="Dashboard.Languages.EditLangaugeTitle" Value="Editeaza limba" />
+<Resource Key="Dashboard.Languages.EditLanguageDescription" Value="Editeaza limba" />
+<Resource Key="Dashboard.Languages.CreateLanguageTitle" Value="Creaza limba" />
+<Resource Key="Dashboard.Languages.CreateLanguageDescription" Value="Creaza o noua limba" />
+<Resource Key="Dashboard.Languages.Action.Name" Value="Nume" />
+<Resource Key="Dashboard.Languages.Action.ShortCode" Value="Cod scurt" />
+<Resource Key="Dashboard.Languages.Action.Enabled" Value="Activeaza" />
+<Resource Key="Dashboard.Languages.Action.MakeDefault" Value="Seteaza ca limba implicita" />
+<Resource Key="Dashboard.Languages.Action.IsRTL" Value="Este RTL" />
+<Resource Key="Dashboard.Languages.Action.Icon" Value="Pictograma" />
+<Resource Key="Dashboard.Languages.Action.SelectLanguageIcon" Value="Selecteaza pictograma limbii" />
+<Resource Key="Dashboard.Languages.Action.SearchForIcon" Value="Cauta o pictograma" />
+<Resource Key="Dashboard.Languages.Action.SearchIconPlaceholder" Value="Cauta cu nume de tara i.e US sau GB" />
+<Resource Key="Dashboard.Languages.Action.Update" Value="Actualizat" />
+<Resource Key="Dashboard.Languages.Action.Disable" Value="Dezactivat" />
+<Resource Key="Dashboard.Languages.Action.Enable" Value="Activat" />
+<Resource Key="Dashboard.Languages.Action.Save" Value="Salveaza" />
+<Resource Key="Dashboard.Languages.Action.Cancel" Value="Anuleaza" />
+<Resource Key="Dashboard.Languages.Action.Validation.NameRequired" Value="Numele este obligatoriu." />
+<Resource Key="Dashboard.Languages.Action.Validation.NameMinimumLength" Value="Numarul minim de litere este {min}." />
+<Resource Key="Dashboard.Languages.Action.Validation.NameMaximumLength" Value="Numarul maxim de litere este {max}." />
+<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeRequired" Value="Codul scurt este obligatoriu." />
+<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMinimumLength" Value="Numarul minim de litere este {min}." />
+<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMaximumLength" Value="Numarul maxim de litere este {max}." />
+<Resource Key="Dashboard.Languages.Action.ImportResources" Value="Importa resurse" />
+<Resource Key="Dashboard.Languages.Action.ChooseFile" Value="Alege fisier" />
+<Resource Key="Dashboard.Languages.Action.Import" Value="Importa" />
+<Resource Key="Dashboard.Languages.Action.ExportResources" Value="Exporta resurse" />
+<Resource Key="Dashboard.Languages.Action.ExportLanguageResources" Value="Exporta resurse limba" />
+<Resource Key="Dashboard.Languages.Action.Export" Value="Exporta" />
+<Resource Key="Dashboard.Languages.Action.ExportNoResourcesWarning" Value="Aceasta limba nu are resurse.Te rugam importa pachetul lingvistic. " />
+<Resource Key="Dashboard.Languages.Action.ResourcesImportedSuccess" Value="Resursele au fost importate cu succes." />
+<Resource Key="Dashboard.Languages.Action.ResourcesExportingWarning" Value=" Pregatirea fisierului cu resurse poate dura ceva timp. Te rugam sa astepti pana cand sistemul genereaza descarcarea fisierului." />
+<Resource Key="Dashboard.Languages.Action.Validation.SelectFileToUpload" Value="Te rugam selecteaza un fisier pentru a-l actualiza." />
+<Resource Key="Dashboard.Languages.Action.Validation.SelectValidFileToUpload" Value="Te rugam actulizeaza un fisier cu alt format." />
+<Resource Key="Dashboard.Languages.Action.Validation.LanguageNotFound" Value="Limba nu a fost gasita." />
+<Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageIsMust" Value="Trebuie sa fie o limba implicita. Te rugam selecteaza o alta limnba implicita iar apoi o poti actualiza." />
+<Resource Key="Dashboard.Languages.Action.Validation.UnableToUpdateLanguage" Value="Limba nu a putut fi actualizata." />
+<Resource Key="Dashboard.Languages.Action.Validation.UnableToCreateLanguage" Value="Limba nu a putut fi creata." />
+<Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageCantBeDisabled" Value="Limba implicita nu poate fi dezactivata." />
+<Resource Key="Dashboard.Languages.Action.Validation.NoResourcesInFile" Value="Nu au fost gasite resurse in fisier." />
+<Resource Key="Dashboard.Languages.Action.Validation.UnableToImportResources" Value="Resursele nu au putut fi importate." />
+<Resource Key="Dashboard.NewsletterSubscribers.Title" Value="Abonati la nautati" />
+<Resource Key="Dashboard.NewsletterSubscribers.Description" Value="Lista abonatilor" />
+<Resource Key="Dashboard.NewsletterSubscribers.SearchPlaceholder" Value="Cauta dupa email." />
+<Resource Key="Dashboard.NewsletterSubscribers.Search" Value="Cauta" />
+<Resource Key="Dashboard.NewsletterSubscribers.Reset" Value="Reseteaza" />
 <Resource Key="Dashboard.NewsletterSubscribers.List.Email" Value="Email" />
-<Resource Key="Dashboard.NewsletterSubscribers.List.UserID" Value="User ID" />
-<Resource Key="Dashboard.NewsletterSubscribers.List.IsVerified" Value="Email Verified" />
-<Resource Key="Dashboard.NewsletterSubscribers.NoRecordFound" Value="No record found." />
+<Resource Key="Dashboard.NewsletterSubscribers.List.UserID" Value="ID-ul utilizatorilor" />
+<Resource Key="Dashboard.NewsletterSubscribers.List.IsVerified" Value="Email verificat" />
+<Resource Key="Dashboard.NewsletterSubscribers.NoRecordFound" Value="Nici o inregistrare gasita." />
 </Language>
