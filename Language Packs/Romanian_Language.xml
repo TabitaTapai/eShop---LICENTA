@@ -509,6 +509,7 @@
 <Resource Key="Dashboard.Products.Action.SetThumbnailImage" Value="Setati ca o imagine in miniatura" />
 <Resource Key="Dashboard.Products.Action.RemovePicture" Value="Elimina imaginea" />
 <Resource Key="Dashboard.Products.Action.FeaturedProduct" Value="Oferta" />
+<Resource Key="Dashboard.Products.Action.ProductInActive" Value="Produs dezactivat" />
 <Resource Key="Dashboard.Products.Update" Value="Actualizeaza" />
 <Resource Key="Dashboard.Products.Delete" Value="Sterge" />
 <Resource Key="Dashboard.Products.Save" Value="Salveaza" />

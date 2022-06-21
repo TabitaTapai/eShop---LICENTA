@@ -1248,7 +1248,7 @@ ol {
 		overflow: hidden;
 		position: relative;
 		padding: 10px;
-		background: #efefef;
+		/*background:#ffffff;*/
 		height: 260px;
 		align-items: center;
 		display: flex;
