@@ -15,7 +15,7 @@ namespace eShop.Web.ViewModels
         public string PageURL { get; set; }
         public string PageImageURL { get; set; }
 
-        public List<string> PageCanonicalURLs { get; set; } //= new List<string>();
+        public List<string> PageCanonicalURLs { get; set; }  //= new List<string>();
 
         public PageViewModel()
         {
