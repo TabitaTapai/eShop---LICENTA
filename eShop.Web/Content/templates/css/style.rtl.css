@@ -1251,16 +1251,16 @@ forward Banner Section
 	bottom: 0;
 }
 
-.product-item .pi-pic {
-	overflow: hidden;
-	position: relative;
-	padding: 10px;
-	background: #efefef;
-	height: 260px;
-	align-items: center;
-	display: flex;
-	cursor: pointer;
-}
+	.product-item .pi-pic {
+		overflow: hidden;
+		position: relative;
+		padding: 10px;
+		/*background: #efefef;*/
+		height: 260px;
+		align-items: center;
+		display: flex;
+		cursor: pointer;
+	}
 
 .product-item .pi-pic img {
 	/*min-width: 100%;*/
